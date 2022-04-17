@@ -1,50 +1,88 @@
 import pandas as pd
 import numpy as np
-import re
 
 directors = pd.read_csv('../Datasets/movie-director.csv')
-revenue = pd.read_csv('../Datasets/movies-revenue.csv')
+revenues = pd.read_csv('../Datasets/movies-revenue.csv')
 voice_actors = pd.read_csv('../Datasets/movie-voice-actors.csv')
 
+
+def main():
+    print("------------------------Preprocessing------------------------")
+    HandleMissingValues()
+    ParseDate()
+    ParseRevenue()
+    # HandlingCategoricalData()
+
+
 def HandleMissingValues():
-    print("Handling Null Values:\n")
-    #Checking For Missing Values
-    revenue.isna().sum()
-    print("Before Dropping NULLs Table Shape was ", revenue.shape)
-    revenue.dropna(inplace=True)
-    print("After Dropping NULLs Table Shape is ", revenue.shape)
+    """Drop all rows with NaNs in the dataset."""
+    print("\nHandling Null Values: ")
+    print("-"*25)
+
+    # Checking for missing values.
+    print("Revenues #NaNs:\n", revenues.isna().sum())
+    print("-"*25)
+    print("Directors #NaNs:\n", directors.isna().sum())
+    print("-"*25)
+    print("Voice Actors #NaNs:\n", voice_actors.isna().sum())
+    print("-"*25)
+
+    # Dropping NaNs.
+    print("Revenues shape before dropping NaNs: ", revenues.shape)
+
+    revenues.dropna(inplace=True)
+
+    print("Revenues shape after dropping NaNs:  ", revenues.shape)
+    print("-"*50)
+
 
 def ParseDate():
-    print("\n\nParsing Date:\n")
-    #Checking Date Format
-    date_lengths = revenue.release_date.str.len()
-    print("Date Lengths : \n")
-    print(date_lengths.value_counts())
+    """Converts release-date data type to datetime instead of string."""
+    print("\nParsing Date: ")
+    print("-" * 25)
 
-    revenue.release_date = pd.to_datetime(revenue.release_date)
-    print("Release Date type: ", revenue.release_date.dtype)
+    # Checking date format consistency.
+    date_lengths = revenues.release_date.str.len()
+
+    print("Date Lengths :")
+    print(date_lengths.value_counts())
+    print("-" * 25)
+
+    print("Release-Date datatype before Parsing: ", revenues.release_date.dtype)
+
+    revenues.release_date = pd.to_datetime(revenues.release_date)
+
+    print("Release-Date datatype after Parsing: ", revenues.release_date.dtype)
+    print("-"*50)
+
 
 def ParseRevenue():
-    print("\n\nParsing Revenue:\n")
+    """Converts revenue data type to float instead of string."""
+    print("\nParsing Revenue:")
+    print("-"*25)
 
-    print("Revenue Data Type Before:",revenue.revenue.dtype)
-    revenue.revenue = revenue.revenue.replace('[\$,]', '', regex=True).astype(float)
-    print("Revenue Data Type After:", revenue.revenue.dtype)
+    print("Revenues before Parsing:\n", revenues.revenue.head())
+    print("-" * 25)
+
+    revenues.revenue = revenues.revenue.replace('[$,]', '', regex=True).astype(float)
+
+    print("Revenues after Parsing:\n", revenues.revenue.head())
+    print("-" * 50)
 
 
 def HandlingCategoricalData():
-    print("\n\nConverting Categorical Data")
+    """Converts categorical data to numerical data to be able to apply regression."""
+    print("\nHandling Categorical Data: ")
+    print("-"*25)
 
-    dummies = pd.get_dummies(revenue.genre)
+    dummies = pd.get_dummies(revenues.genre)
     unique_genres = pd.DataFrame(dummies)
 
-    del(revenue['genre'])
+    del(revenues['genre'])
 
-    revenue_preproccessed = pd.concat([revenue, unique_genres], axis=1)
+    revenue_preproccessed = pd.concat([revenues, unique_genres], axis=1)
     print(revenue_preproccessed.shape)
 
-print("------------------------Preprocessing------------------------")
-HandleMissingValues()
-ParseDate()
-ParseRevenue()
-HandlingCategoricalData()
+
+if __name__ == '__main__':
+    main()
