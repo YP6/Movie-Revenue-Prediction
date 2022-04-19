@@ -7,11 +7,12 @@ directors = pd.read_csv('../Datasets/movie-director.csv')
 
 def main():
     print("------------------------Preprocessing------------------------")
-    HandleMissingValues()
-    ParseDate()
-    ParseRevenue()
+    HandleMissingValues() #DONE
+    ParseDate()           #DONE
+    ParseRevenue()        #DONE
+    RemoveDuplicates()    #DONE
 
-    revenues_preprocessed, voice_actors_preprocessed, directors_preprocessed = HandlingCategoricalData()
+    #revenues_preprocessed, voice_actors_preprocessed, directors_preprocessed = HandlingCategoricalData()
 
     print("\n\nJoining Tables")
     print("-" *25)
@@ -92,38 +93,42 @@ def HandlingCategoricalData():
     del(revenues['genre'])
     del(revenues['MPAA_rating'])
 
-    revenues_preprocessed = pd.concat([revenues, dummiesDF], axis=1)
+    revenues_preprocessed = dummiesDF
     print("Revenues Shape After One Hot Encoding:",revenues_preprocessed.shape)
 
     """Voice Actors."""
     print("-"*15)
-    dummies = pd.get_dummies(data=voice_actors, columns=['voice-actor'])
-    dummiesDF = pd.DataFrame(dummies)
-    unique = voice_actors['voice-actor'].unique()
+    #dummies = pd.get_dummies(data=voice_actors, columns=['voice-actor'])
+    #dummiesDF = pd.DataFrame(dummies)
+    #unique = voice_actors['voice-actor'].unique()
 
     print("Voice Actors Shape Before One Hot Encoding:", voice_actors.shape)
-    del(voice_actors['voice-actor'])
+    #del(voice_actors['voice-actor'])
 
-    voice_actors_preprocessed = pd.concat([voice_actors, dummiesDF], axis=1)
+    voice_actors_preprocessed = (voice_actors.pivot_table(index='movie', columns='voice-actor', aggfunc='size', fill_value=0).reset_index().rename_axis(columns=None))
     #TODO: Aggregation
     print("Voice Actors Shape After One Hot Encoding:", voice_actors_preprocessed.shape)
 
     """Movie Directors."""
     print("-" * 15)
-    dummies = pd.get_dummies(data=directors, columns=['director'])
-    dummiesDF = pd.DataFrame(dummies)
+    #dummies = pd.get_dummies(data=directors, columns=['director'])
+    #dummiesDF = pd.DataFrame(dummies)
 
     print("Directors Shape Before One Hot Encoding:", directors.shape)
-    del (directors['director'])
+    #del (directors['director'])
 
-    directors_preprocessed = pd.concat([directors, dummiesDF], axis=1)
+    directors_preprocessed = (directors.pivot_table(index='name',columns='director',aggfunc='size',fill_value=0).reset_index().rename_axis(columns=None))
     #TODO: Aggregation
     print("Directors Shape After One Hot Encoding:", directors_preprocessed.shape)
 
     return revenues_preprocessed, voice_actors_preprocessed, directors_preprocessed
 
+def RemoveDuplicates():
+    revenues.sort_values(by='release_date', ascending=False, inplace=True)
+    revenues.drop_duplicates(subset=['movie_title'], inplace=True)
 
-def joinTables(rev, va, dir):
+
+def joinTables(rev, va):
     data = rev.merge(va, how='left', left_on='movie-title', right_on='movie')
     print(data.head())
 
