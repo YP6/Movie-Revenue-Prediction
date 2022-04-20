@@ -2,35 +2,40 @@ import pandas as pd
 import numpy as np
 import imdb
 
+
 revenues = pd.read_csv('../Datasets/movies-revenue.csv')
 voice_actors = pd.read_csv('../Datasets/movie-voice-actors.csv')
 directors = pd.read_csv('../Datasets/movie-director.csv')
 
-def main():
+def main(filepath):
     print("------------------------Preprocessing------------------------")
     #HandleMissingValues() #DONE
     ParseDate()           #DONE
     ParseRevenue()        #DONE
+
+    data_after_filing = fillMissingData(revenues)
+    data_after_filing.dropna(inplace=True)
+
     directors.rename(columns={'name': 'movie_title'}, inplace=True)
     voice_actors.rename(columns={'movie': 'movie_title'}, inplace=True)
+
+    #Join Tables
     print("\n\nJoining Tables")
-    print("-" * 25)
-    dataset = JoinTables()
-    RemoveDuplicates()    #DONE
+    print("-"*25)
+    dateset_after_joining = JoinTables(data_after_filing, directors, voice_actors)
 
     #revenues_preprocessed, voice_actors_preprocessed, directors_preprocessed = HandlingCategoricalData()
 
-
-    #TODO Uncomment this after finishing aggregation
-    #final_preprocessed_data = joinTables(revenues_preprocessed, voice_actors_preprocessed, directors_preprocessed)
+    print("Saving...")
+    dateset_after_joining.to_csv(filepath, index=False)
     print("Finished Preprocessing")
     print("-"*50)
     print("Data Sample")
-    #print(final_preprocessed_data.head())
+    print(dateset_after_joining.head())
 
-def JoinTables():
-    revenues_directors = pd.merge(revenues, directors, on="movie_title", how="outer")
-    data = pd.merge(revenues_directors, voice_actors, on="movie_title", how="outer")
+def JoinTables(revs, va, dir):
+    revenues_actors = pd.merge(revs, va, on="movie_title", how="outer")
+    data = pd.merge(revenues_actors, dir, on="movie_title", how="outer")
     data = data.dropna(axis=0, subset=['revenue'])
     print("Shape after Joining :", data.shape)
     return data
@@ -70,6 +75,16 @@ def ParseDate():
     print("-" * 25)
 
     print("Release-Date datatype before Parsing: ", revenues.release_date.dtype)
+
+    #Fixing Parsing Wrong Dates
+    for i in range(revenues.shape[0]):
+        date = revenues.loc[i, 'release_date']
+        if 2 < int(date[-2]) < 7:
+            new_date = date[:-2] + "19" + date[-2:]
+            revenues.loc[i, 'release_date'] = new_date
+        elif int(date[-2]) == 2 and int(date[-1]) > 2:
+            new_date = date[:-2] + "19" + date[-2:]
+            revenues.loc[i, 'release_date'] = new_date
 
     revenues.release_date = pd.to_datetime(revenues.release_date)
 
@@ -140,33 +155,47 @@ def RemoveDuplicates():
     revenues.drop_duplicates(subset=['movie_title'], inplace=True)
 
 
-def joinTables(rev, va):
-    data = rev.merge(va, how='left', left_on='movie-title', right_on='movie')
-    print(data.head())
-
 
 def fillMissingData(data):
     """ Takes the joined data frame as an input and returns the dataframe after filling missing values."""
     ia = imdb.IMDb()
 
+    date_nans = data[data['release_date'].isna()].movie_title
+    print("Filling Dates...")
+    i = 0
+    for name in date_nans:
+        i += 1
+        print(i, "/", len(date_nans))
+        search = ia.search_movie(name)
+        data.loc[data['movie_title'] == name, 'release_date'] = pd.to_datetime("1-Jan-"+search[0].items()[2][1])
+    print("Filling Dates Has Finished")
+
     # Filling Movies' Genre.
     genre_nans = data[data['genre'].isna()].movie_title
+    print("Filling Genres...")
+    i=0
     for name in genre_nans:
+        i+=1
+        print(i,"/",len(genre_nans))
         search = ia.search_movie(name)
         id = search[0].movieID
         movie = ia.get_movie(id)
         genre = movie['genres'][0]
-        data['genre'].loc[data['movie_title'] == name] = genre
+        data.loc[data['movie_title'] == name, 'genre'] = genre
 
+    print("Filling Genres Has Finished")
     # Filling Movies' MPAA Ratings.
     rating_nans = data[data['MPAA_rating'].isna()].movie_title
     MPAA_ratings = ['G', 'PG', 'R', 'PG-13', 'Not Rated']
 
+    print("Filling MPAA Rating...")
+    i = 0
     for name in rating_nans:
+        i += 1
+        print(i, "/", len(rating_nans))
         search = ia.search_movie(name)
         id = search[0].movieID
         movie = ia.get_movie(id)
-
         ratingsLen = len(movie.data['certificates'])
         ratings = movie.data['certificates']
 
@@ -175,10 +204,10 @@ def fillMissingData(data):
             if 'United States' in rating:
                 rating = rating.split(":", 1)[1]
                 if rating in MPAA_ratings:
-                    data['MPAA_rating'].loc[data['movie_title'] == name] = rating
+                    data.loc[data['movie_title'] == name, 'MPAA_rating'] = rating
                 else:
-                    data['MPAA_rating'].loc[data['movie_title'] == name] = None
-
-
+                    data.loc[data['movie_title'] == name, 'MPAA_rating'] = None
+    print("Filling MPAA Rating Has Finished")
+    return data
 if __name__ == '__main__':
-    main()
+    main("data_finalizing_test.csv")
