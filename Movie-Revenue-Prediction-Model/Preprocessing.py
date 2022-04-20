@@ -1,5 +1,6 @@
 import pandas as pd
 import numpy as np
+import imdb
 
 revenues = pd.read_csv('../Datasets/movies-revenue.csv')
 voice_actors = pd.read_csv('../Datasets/movie-voice-actors.csv')
@@ -144,6 +145,39 @@ def joinTables(rev, va):
     print(data.head())
 
 
+def fillMissingData(data):
+    """ Takes the joined data frame as an input and returns the dataframe after filling missing values."""
+    ia = imdb.IMDb()
+
+    # Filling Movies' Genre.
+    genre_nans = data[data['genre'].isna()].movie_title
+    for name in genre_nans:
+        search = ia.search_movie(name)
+        id = search[0].movieID
+        movie = ia.get_movie(id)
+        genre = movie['genres'][0]
+        data['genre'].loc[data['movie_title'] == name] = genre
+
+    # Filling Movies' MPAA Ratings.
+    rating_nans = data[data['MPAA_rating'].isna()].movie_title
+    MPAA_ratings = ['G', 'PG', 'R', 'PG-13', 'Not Rated']
+
+    for name in rating_nans:
+        search = ia.search_movie(name)
+        id = search[0].movieID
+        movie = ia.get_movie(id)
+
+        ratingsLen = len(movie.data['certificates'])
+        ratings = movie.data['certificates']
+
+        for i in range(ratingsLen):
+            rating = ratings[i]
+            if 'United States' in rating:
+                rating = rating.split(":", 1)[1]
+                if rating in MPAA_ratings:
+                    data['MPAA_rating'].loc[data['movie_title'] == name] = rating
+                else:
+                    data['MPAA_rating'].loc[data['movie_title'] == name] = None
 
 
 if __name__ == '__main__':
