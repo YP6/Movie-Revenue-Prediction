@@ -7,21 +7,32 @@ directors = pd.read_csv('../Datasets/movie-director.csv')
 
 def main():
     print("------------------------Preprocessing------------------------")
-    HandleMissingValues() #DONE
+    #HandleMissingValues() #DONE
     ParseDate()           #DONE
     ParseRevenue()        #DONE
+    directors.rename(columns={'name': 'movie_title'}, inplace=True)
+    voice_actors.rename(columns={'movie': 'movie_title'}, inplace=True)
+    print("\n\nJoining Tables")
+    print("-" * 25)
+    dataset = JoinTables()
     RemoveDuplicates()    #DONE
 
     #revenues_preprocessed, voice_actors_preprocessed, directors_preprocessed = HandlingCategoricalData()
 
-    print("\n\nJoining Tables")
-    print("-" *25)
+
     #TODO Uncomment this after finishing aggregation
     #final_preprocessed_data = joinTables(revenues_preprocessed, voice_actors_preprocessed, directors_preprocessed)
     print("Finished Preprocessing")
     print("-"*50)
     print("Data Sample")
     #print(final_preprocessed_data.head())
+
+def JoinTables():
+    revenues_directors = pd.merge(revenues, directors, on="movie_title", how="outer")
+    data = pd.merge(revenues_directors, voice_actors, on="movie_title", how="outer")
+    data = data.dropna(axis=0, subset=['revenue'])
+    print("Shape after Joining :", data.shape)
+    return data
 
 def HandleMissingValues():
     """Drop all rows with NaNs in the dataset."""
