@@ -6,6 +6,9 @@ from sklearn import linear_model
 from sklearn import metrics
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import r2_score
+import timeit
+
+
 
 
 data = pd.read_csv('data_finalizing_test.csv')
@@ -30,9 +33,13 @@ print("", '-'*50)
 
 X_Train, X_Test, Y_Train, Y_Test = train_test_split(X, Y, train_size=0.80, shuffle=True, random_state=100)
 
+start = timeit.default_timer()
 
 model = linear_model.LinearRegression()
 model.fit(X_Train, Y_Train)
+
+stop = timeit.default_timer()
+print('Training Time :', "{:.2f}".format((stop-start)*1000), "ms")
 
 Train_predictions = model.predict(X_Train)
 Test_predictions = model.predict(X_Test)
