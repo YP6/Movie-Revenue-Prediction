@@ -28,7 +28,7 @@ print("", '-'*50)
 print(' Features :', Features)
 print("", '-'*50)
 
-X_Train, X_Test, Y_Train, Y_Test = train_test_split(X, Y, train_size=0.80)
+X_Train, X_Test, Y_Train, Y_Test = train_test_split(X, Y, train_size=0.80, shuffle=True, random_state=100)
 
 
 model = linear_model.LinearRegression()
@@ -39,8 +39,10 @@ Test_predictions = model.predict(X_Test)
 
 print('_'*25)
 print('Multi Linear Regression With James Stein Encoder')
+print('_'*15)
 print('Train MSE =', metrics.mean_squared_error(np.array(Y_Train), Train_predictions))
 print('Accuracy =', "{:.4f}".format(r2_score(Y_Train, Train_predictions) * 100), "%")
+print('_'*15)
 print('Test MSE =', metrics.mean_squared_error(np.array(Y_Test), Test_predictions))
 print('Accuracy =', "{:.4f}".format(r2_score(Y_Test, Test_predictions)*100), "%")
 print('_'*25)

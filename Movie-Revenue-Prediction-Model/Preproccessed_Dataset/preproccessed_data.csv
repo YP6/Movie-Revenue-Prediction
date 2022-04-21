@@ -1,0 +1,793 @@
+movie_title,release_date,genre,MPAA_rating,revenue,director,character,voice-actor
+Recess: School's Out,2001-02-16,Comedy,G,54656124.0,,,
+D2: The Mighty Ducks,1994-03-25,Comedy,PG,94226333.0,,,
+Home on the Range,2004-04-02,Comedy,PG,67910166.0,Will Finn,Alameda Slim,Randy Quaid
+Home on the Range,2004-04-02,Comedy,PG,67910166.0,Will Finn,Audrey the Chicken,Estelle Harris
+Home on the Range,2004-04-02,Comedy,PG,67910166.0,Will Finn,Buck,Cuba Gooding Jr.
+Home on the Range,2004-04-02,Comedy,PG,67910166.0,Will Finn,Grace,Jennifer Tilly
+Home on the Range,2004-04-02,Comedy,PG,67910166.0,Will Finn,Jeb the Goat,Joe Flaherty
+Home on the Range,2004-04-02,Comedy,PG,67910166.0,Will Finn,Junior the Buffalo,Lance LeGault
+Home on the Range,2004-04-02,Comedy,PG,67910166.0,Will Finn,Larry the Duck,Marshall Efron
+Home on the Range,2004-04-02,Comedy,PG,67910166.0,Will Finn,Lucky Jack,Charles Haid
+Home on the Range,2004-04-02,Comedy,PG,67910166.0,Will Finn,Maggie,Roseanne Barr
+Home on the Range,2004-04-02,Comedy,PG,67910166.0,Will Finn,Mrs. Calloway,Judi Dench
+Home on the Range,2004-04-02,Comedy,PG,67910166.0,Will Finn,Ollie the Pig,Charlie Dell
+Home on the Range,2004-04-02,Comedy,PG,67910166.0,Will Finn,Pearl Gesner,Carole Cook
+Home on the Range,2004-04-02,Comedy,PG,67910166.0,Will Finn,Rico,Charles Dennis
+Home on the Range,2004-04-02,Comedy,PG,67910166.0,Will Finn,Rusty the Dog,G.W. Bailey
+Home on the Range,2004-04-02,Comedy,PG,67910166.0,Will Finn,Sam the Sheriff,Richard Riehle
+Home on the Range,2004-04-02,Comedy,PG,67910166.0,Will Finn,Wesley,Steve Buscemi
+Young Black Stallion,2003-12-25,Adventure,G,9254344.0,,,
+What's Love Got to Do With It,1993-06-09,Drama,R,79618610.0,,,
+Lady and the Tramp,1955-06-22,Drama,G,1236035515.0,Hamilton Luske,Al the Alligator,Thurl Ravenscroft
+Lady and the Tramp,1955-06-22,Drama,G,1236035515.0,Hamilton Luske,Aunt Sarah,Verna Felton
+Lady and the Tramp,1955-06-22,Drama,G,1236035515.0,Hamilton Luske,Beaver,Stan Freberg
+Lady and the Tramp,1955-06-22,Drama,G,1236035515.0,Hamilton Luske,Darling,Peggy Lee
+Lady and the Tramp,1955-06-22,Drama,G,1236035515.0,Hamilton Luske,Jim Dear,Lee Millar
+Lady and the Tramp,1955-06-22,Drama,G,1236035515.0,Hamilton Luske,Jock,Bill Thompson
+Lady and the Tramp,1955-06-22,Drama,G,1236035515.0,Hamilton Luske,Lady,Barbara Luddy
+Lady and the Tramp,1955-06-22,Drama,G,1236035515.0,Hamilton Luske,Peg,Peggy Lee
+Lady and the Tramp,1955-06-22,Drama,G,1236035515.0,Hamilton Luske,Si & Am,Peggy Lee
+Lady and the Tramp,1955-06-22,Drama,G,1236035515.0,Hamilton Luske,Tramp,Larry Roberts
+Lady and the Tramp,1955-06-22,Drama,G,1236035515.0,Hamilton Luske,Trusty,Bill Baucom
+Corky Romano,2001-10-12,Comedy,PG-13,35705805.0,,,
+The Waterboy,1998-11-06,Comedy,PG-13,288691833.0,,,
+Captain America: The Winter Soldier,2014-04-04,Action,PG-13,268013076.0,,,
+Pirates of the Caribbean: Dead Man’…,2006-07-07,Adventure,PG-13,544817142.0,,,
+Ladder 49,2004-10-01,Action,PG-13,101161045.0,,,
+Coyote Ugly,2000-08-04,Drama,PG-13,95070168.0,,,
+The Sixth Man,1997-03-28,Comedy,PG-13,27117599.0,,,
+Dick Tracy,1990-06-15,Action,PG,207231621.0,,,
+Sister Act 2 Back in the Habit,1993-12-10,Comedy,PG,116965668.0,,,
+DuckTales: The Movie - Treasure of th…,1990-08-03,Adventure,G,36107823.0,,,
+Blame it on the Bellboy,1992-03-06,Comedy,PG-13,5872667.0,,,
+The Hunchback of Notre Dame,1996-06-21,Adventure,G,190988799.0,Gary Trousdale,Achilles,None
+The Hunchback of Notre Dame,1996-06-21,Adventure,G,190988799.0,Gary Trousdale,The Archdeacon,David Ogden Stiers
+The Hunchback of Notre Dame,1996-06-21,Adventure,G,190988799.0,Gary Trousdale,Captain Phoebus,Kevin Kline
+The Hunchback of Notre Dame,1996-06-21,Adventure,G,190988799.0,Gary Trousdale,Clopin Trouillefou,Paul Kandel
+The Hunchback of Notre Dame,1996-06-21,Adventure,G,190988799.0,Gary Trousdale,Djali,None
+The Hunchback of Notre Dame,1996-06-21,Adventure,G,190988799.0,Gary Trousdale,Esmeralda,Demi Moore
+The Hunchback of Notre Dame,1996-06-21,Adventure,G,190988799.0,Gary Trousdale,Hugo,Jason Alexander
+The Hunchback of Notre Dame,1996-06-21,Adventure,G,190988799.0,Gary Trousdale,Judge Claude Frollo,Tony Jay
+The Hunchback of Notre Dame,1996-06-21,Adventure,G,190988799.0,Gary Trousdale,Laverne,Mary Wickes
+The Hunchback of Notre Dame,1996-06-21,Adventure,G,190988799.0,Gary Trousdale,Quasimodo,Tom Hulce
+The Hunchback of Notre Dame,1996-06-21,Adventure,G,190988799.0,Gary Trousdale,Victor,Charles Kimbrough
+Ernest Goes to Jail,1990-04-06,Comedy,PG,49999822.0,,,
+Ant-Man,2015-07-17,Action,PG-13,180202163.0,,,
+The Shaggy Dog,2006-03-10,Comedy,PG,78667428.0,,,
+The Life Aquatic with Steve Zissou,2004-12-10,Comedy,R,32198655.0,,,
+Bridge to Terabithia,2007-02-16,Drama,PG,100760721.0,,,
+Beauty and the Beast,1991-11-13,Musical,G,363017667.0,Gary Trousdale,Armoire,Jo Anne Worley
+Beauty and the Beast,1991-11-13,Musical,G,363017667.0,Gary Trousdale,Babette,Mary Kay Bergman
+Beauty and the Beast,1991-11-13,Musical,G,363017667.0,Gary Trousdale,Baker,Alex Murphey
+Beauty and the Beast,1991-11-13,Musical,G,363017667.0,Gary Trousdale,Beast,Robby Benson
+Beauty and the Beast,1991-11-13,Musical,G,363017667.0,Gary Trousdale,Belle,Paige O'Hara
+Beauty and the Beast,1991-11-13,Musical,G,363017667.0,Gary Trousdale,Bimbette,Kath Soucie
+Beauty and the Beast,1991-11-13,Musical,G,363017667.0,Gary Trousdale,Bookseller,Alvin Epstein
+Beauty and the Beast,1991-11-13,Musical,G,363017667.0,Gary Trousdale,Chef Bouche,Brian Cummings
+Beauty and the Beast,1991-11-13,Musical,G,363017667.0,Gary Trousdale,Chip Potts,Bradley Michael Pierce
+Beauty and the Beast,1991-11-13,Musical,G,363017667.0,Gary Trousdale,Cogsworth,David Ogden Stiers
+Beauty and the Beast,1991-11-13,Musical,G,363017667.0,Gary Trousdale,Fifi the Featherduster,Kimmy Robertson
+Beauty and the Beast,1991-11-13,Musical,G,363017667.0,Gary Trousdale,Gaston,Richard White
+Beauty and the Beast,1991-11-13,Musical,G,363017667.0,Gary Trousdale,Le Fou,Jesse Corti
+Beauty and the Beast,1991-11-13,Musical,G,363017667.0,Gary Trousdale,Lumière,Jerry Orbach
+Beauty and the Beast,1991-11-13,Musical,G,363017667.0,Gary Trousdale,Maurice,Rex Everhart
+Beauty and the Beast,1991-11-13,Musical,G,363017667.0,Gary Trousdale,Monsieur D'Arque,Tony Jay
+Beauty and the Beast,1991-11-13,Musical,G,363017667.0,Gary Trousdale,Mrs. Potts,Angela Lansbury
+Beauty and the Beast,1991-11-13,Musical,G,363017667.0,Gary Trousdale,Philippe the Horse,Hal Smith
+Beauty and the Beast,1991-11-13,Musical,G,363017667.0,Gary Trousdale,Sultan the Footstool,Frank Welker
+Miami Rhapsody,1995-01-27,Romantic Comedy,PG-13,9857435.0,,,
+A Bug's Life,1998-11-20,Adventure,G,288981698.0,,,
+3 Men and a Little Lady,1990-11-21,Comedy,PG,143108869.0,,,
+The Puppet Masters,1994-10-21,Horror,R,17727017.0,,,
+Signs,2002-08-02,Thriller/Suspense,PG-13,330754439.0,,,
+Dead Presidents,1995-10-04,Drama,R,46741467.0,,,
+"McFarland, USA",2015-02-20,Drama,PG,44480275.0,,,
+George Of The Jungle,1997-07-16,Comedy,PG,193326632.0,,,
+Bound by Honor,1993-04-16,Crime,R,9156084.0,,,
+The Avengers,2012-05-04,Action,PG-13,660081224.0,,,
+Ten Things I Hate About You,1999-03-31,Romantic Comedy,PG-13,63354375.0,,,
+Earth,2009-04-22,Documentary,G,35981010.0,,,
+When a Man Loves a Woman,1994-04-29,Drama,R,103354194.0,,,
+Unbreakable,2000-11-22,Thriller/Suspense,PG-13,148208901.0,,,
+3 Men and a Baby,1987-11-25,Comedy,PG,353334607.0,,,
+X Games 3D: The Movie,2009-08-21,Documentary,PG,1563976.0,,,
+Cars 2,2011-06-24,Adventure,G,203522177.0,,,
+The Princess Diaries 2: Royal Engagement,2004-08-11,Romantic Comedy,G,129164207.0,,,
+The Jungle Book 2,2003-02-14,Adventure,G,66966883.0,,,
+Aspen Extreme,1993-01-22,Romantic Comedy,PG-13,15970955.0,,,
+Noises Off...,1992-03-20,Comedy,PG-13,4631720.0,,,
+He Got Game,1998-05-01,Drama,R,38766948.0,,,
+Bringing Down the House,2003-03-07,Comedy,PG-13,185481530.0,,,
+Bon Voyage!,1962-05-17,Comedy,Not Rated,109581646.0,,,
+Doctor Strange,2016-11-04,Adventure,PG-13,232532923.0,,,
+Flubber,1997-11-26,Comedy,PG,170406423.0,,,
+Roving Mars,2006-01-27,Documentary,G,12948025.0,,,
+Captain Ron,1992-09-18,Comedy,PG-13,45741576.0,,,
+Shadow Conspiracy,1997-01-31,Thriller/Suspense,R,3957025.0,,,
+Good Morning Vietnam,1987-12-23,Comedy,R,254414837.0,,,
+Babes in Toyland,1961-12-14,Musical,G,124841160.0,,,
+An Innocent Man,1989-10-06,Drama,R,40983414.0,,,
+Summer of Sam,1999-07-02,Drama,R,32007656.0,,,
+The Good Dinosaur,2015-11-25,Adventure,PG,123087120.0,,,
+Angels in the Outfield,1994-07-15,Comedy,PG,103798152.0,,,
+The Rocketeer,1991-06-21,Action,PG,93256673.0,,,
+Stakeout,1987-08-05,Comedy,R,141592160.0,,,
+National Treasure 2: Book of Secrets,2007-12-21,Adventure,PG,267003525.0,,,
+Terminal Velocity,1994-09-23,Action,PG-13,34048315.0,,,
+Apocalypto,2006-12-08,Adventure,R,64959548.0,,,
+Invincible,2006-08-25,Drama,PG,74398864.0,,,
+25th Hour,2002-12-19,Drama,R,18325463.0,,,
+Mighty Joe Young,1998-12-25,Adventure,PG,87906042.0,,,
+Deceived,1991-09-27,Thriller/Suspense,PG-13,57544453.0,,,
+G-Force,2009-07-24,Adventure,PG,134246932.0,,,
+Feast of July,1995-10-13,Drama,R,568342.0,,,
+The Lookout,2007-03-30,Drama,R,5637048.0,,,
+Cool Runnings,1993-10-01,Comedy,PG,140392731.0,,,
+Alice Through the Looking Glass,2016-05-27,Adventure,PG,77042381.0,,,
+The Chronicles of Narnia: Prince Caspian,2008-05-16,Adventure,PG,166277038.0,,,
+The Insider,1999-11-05,Drama,R,47794214.0,,,
+Camp Nowhere,1994-08-26,Comedy,PG,21576332.0,,,
+The Rock,1996-06-07,Action,R,255702705.0,,,
+Green Card,1990-12-25,Romantic Comedy,PG-13,59679131.0,,,
+Real Steel,2011-10-07,Action,PG-13,90848019.0,,,
+A Kid in King Arthur's Court,1995-08-11,Adventure,PG,25981285.0,,,
+African Cats,2011-04-22,Documentary,G,16401551.0,,,
+Toy Story 3D Double Feature,2009-10-02,Adventure,G,34509545.0,,,
+Into the Woods,2014-12-25,Musical,PG,130894237.0,,,
+Finding Nemo,2003-05-30,Adventure,G,518148559.0,,,
+The Hundred-Foot Journey,2014-08-08,Romantic Comedy,PG,55961409.0,,,
+Pearl Harbor,2001-05-25,Action,PG-13,295705112.0,,,
+Pirates of the Caribbean: At World’…,2007-05-24,Adventure,PG-13,379129960.0,,,
+Color of Night,1994-08-19,Thriller/Suspense,R,40804816.0,,,
+Romy and Michele's High School Reunion,1997-04-25,Comedy,R,53693680.0,,,
+Jack,1996-08-09,Drama,PG-13,111792852.0,,,
+Monsters University,2013-06-21,Adventure,G,278395641.0,,,
+The Fifth Estate,2013-10-18,Drama,R,3374251.0,,,
+Before and After,1996-02-23,Drama,PG-13,16482589.0,,,
+Moonlight Mile,2002-09-27,Drama,PG-13,9909094.0,,,
+A Stranger Among Us,1992-07-17,Drama,PG-13,24950752.0,,,
+The Lizzie McGuire Movie,2003-05-02,Comedy,PG,59743191.0,,,
+Krippendorf's Tribe,1998-02-27,Comedy,PG-13,13608633.0,,,
+crazy/beautiful,2001-06-29,Drama,PG-13,25214223.0,,,
+The Game Plan,2007-09-22,Comedy,PG,111010758.0,,,
+Splash,1984-03-09,Comedy,PG,157057661.0,,,
+Who Framed Roger Rabbit?,1988-06-22,Comedy,PG,316250084.0,,,
+The Light Between Oceans,2016-09-02,Drama,PG-13,12545979.0,,,
+The Guardian,2006-09-29,Action,PG-13,70801353.0,,,
+Mr. Holland's Opus,1995-12-29,Drama,PG,157508868.0,,,
+The Rescuers Down Under,1990-11-16,Adventure,G,55796728.0,Mike Gabriel,Cody,Adam Ryen
+The Rescuers Down Under,1990-11-16,Adventure,G,55796728.0,Mike Gabriel,Doctor Mouse,Bernard Fox
+The Rescuers Down Under,1990-11-16,Adventure,G,55796728.0,Mike Gabriel,Faloo,Carla Meyer
+The Rescuers Down Under,1990-11-16,Adventure,G,55796728.0,Mike Gabriel,Francois,Ed Gilbert
+The Rescuers Down Under,1990-11-16,Adventure,G,55796728.0,Mike Gabriel,Frank,Wayne Robson
+The Rescuers Down Under,1990-11-16,Adventure,G,55796728.0,Mike Gabriel,Jake,Tristan Rogers
+The Rescuers Down Under,1990-11-16,Adventure,G,55796728.0,Mike Gabriel,Krebbs,Douglas Seale
+The Rescuers Down Under,1990-11-16,Adventure,G,55796728.0,Mike Gabriel,Marahute,Frank Welker
+The Rescuers Down Under,1990-11-16,Adventure,G,55796728.0,Mike Gabriel,Nurse Mouse,Russi Taylor
+The Rescuers Down Under,1990-11-16,Adventure,G,55796728.0,Mike Gabriel,Percival C. McLeach,George C. Scott
+The Rescuers Down Under,1990-11-16,Adventure,G,55796728.0,Mike Gabriel,Red,Peter Firth
+The Rescuers Down Under,1990-11-16,Adventure,G,55796728.0,Mike Gabriel,Wilbur,John Candy
+The Preacher's Wife,1996-12-13,Drama,PG,91076877.0,,,
+Sarafina!,1992-09-18,Drama,PG-13,14841352.0,,,
+Confessions of a Teenage Drama Queen,2004-02-20,Comedy,PG,39816568.0,,,
+Around the World in 80 Days,2004-06-16,Adventure,PG,32585356.0,,,
+Blaze,1989-12-13,Drama,R,39884640.0,,,
+Toy Story,1995-11-22,Adventure,G,370409631.0,,,
+Prince of Persia: Sands of Time,2010-05-28,Action,PG-13,96971361.0,,,
+Eddie,1996-05-31,Comedy,PG-13,59828966.0,,,
+White Fang 2: Myth of the White Wolf,1994-04-15,Adventure,PG,18083994.0,,,
+White Squall,1996-02-02,Adventure,PG-13,19509726.0,,,
+The Invisible,2007-04-27,Thriller/Suspense,PG-13,25202168.0,,,
+Guilty as Sin,1993-06-04,Thriller/Suspense,R,46064723.0,,,
+Operation Dumbo Drop,1995-07-28,Adventure,PG,47809421.0,,,
+Ghosts of the Abyss,2003-04-11,Documentary,G,23803108.0,,,
+The BFG,2016-07-01,Adventure,PG,55483770.0,,,
+Firelight,1998-09-04,Drama,R,1409943.0,,,
+Delivery Man,2013-11-22,Comedy,PG-13,31787136.0,,,
+New York Stories,1989-03-01,Drama,PG,22740861.0,,,
+Tom and Huck,1995-12-22,Adventure,PG,45911517.0,,,
+Keeping the Faith,2000-04-14,Romantic Comedy,PG-13,57925202.0,,,
+Grosse Pointe Blank,1997-04-11,Black Comedy,R,51579764.0,,,
+Indian Summer,1993-04-23,Comedy,R,29968953.0,,,
+The Princess and the Frog,2009-11-25,Adventure,G,116316457.0,Ron Clements,Buford the Cook,Michael Colyar
+The Princess and the Frog,2009-11-25,Adventure,G,116316457.0,Ron Clements,Charlotte La Bouff,Jennifer Cody
+The Princess and the Frog,2009-11-25,Adventure,G,116316457.0,Ron Clements,Cousin Randy,Randy Newman
+The Princess and the Frog,2009-11-25,Adventure,G,116316457.0,Ron Clements,Dr. Facilier,Keith David
+The Princess and the Frog,2009-11-25,Adventure,G,116316457.0,Ron Clements,"Eli ""Big Daddy"" La Bouff",John Goodman
+The Princess and the Frog,2009-11-25,Adventure,G,116316457.0,Ron Clements,Eudora,Oprah Winfrey
+The Princess and the Frog,2009-11-25,Adventure,G,116316457.0,Ron Clements,Evangaline,None
+The Princess and the Frog,2009-11-25,Adventure,G,116316457.0,Ron Clements,Harvey Fenner,Corey Burton
+The Princess and the Frog,2009-11-25,Adventure,G,116316457.0,Ron Clements,Henry Fenner,Jerry Kernion
+The Princess and the Frog,2009-11-25,Adventure,G,116316457.0,Ron Clements,Ian the Alligator,Kevin Michael Richardson
+The Princess and the Frog,2009-11-25,Adventure,G,116316457.0,Ron Clements,Lawrence the Valet,Peter Bartlett
+The Princess and the Frog,2009-11-25,Adventure,G,116316457.0,Ron Clements,Louis the Alligator,Michael-Leon Wooley
+The Princess and the Frog,2009-11-25,Adventure,G,116316457.0,Ron Clements,Mama Odie,Jenifer Lewis
+The Princess and the Frog,2009-11-25,Adventure,G,116316457.0,Ron Clements,Marlon the Alligator,Emeril Lagasse
+The Princess and the Frog,2009-11-25,Adventure,G,116316457.0,Ron Clements,Prince Naveen,Bruno Campos
+The Princess and the Frog,2009-11-25,Adventure,G,116316457.0,Ron Clements,Ray the Firefly,Jim Cummings
+The Princess and the Frog,2009-11-25,Adventure,G,116316457.0,Ron Clements,Tiana,Anika Noni Rose
+The Princess and the Frog,2009-11-25,Adventure,G,116316457.0,Ron Clements,Two Fingers,Paul Briggs
+Billy Bathgate,1991-11-01,Drama,R,31167691.0,,,
+3 Ninjas Kick Back,1994-05-06,Action,PG,24267154.0,,,
+My Boyfriend's Back,1993-08-06,Comedy,PG-13,6554384.0,,,
+Goal! The Dream Begins,2006-05-12,Drama,PG,5512647.0,,,
+Big Trouble,2002-04-05,Comedy,PG-13,10537188.0,,,
+People Like Us,2012-06-29,Drama,PG-13,13165822.0,,,
+Mars Needs Moms,2011-03-11,Adventure,PG,22741603.0,,,
+Angie,1994-03-04,Comedy,R,19116981.0,,,
+Deuce Bigalow: Male Gigolo,1999-12-10,Comedy,R,106921374.0,,,
+Veronica Guerin,2003-10-17,Drama,R,2194759.0,,,
+Max Keeble's Big Move,2001-10-05,Comedy,PG,25749730.0,,,
+The Scarlet Letter,1995-10-13,Drama,R,20075033.0,,,
+D3: The Mighty Ducks,1996-10-04,Comedy,PG,43713554.0,,,
+Up,2009-05-29,Adventure,PG,329336681.0,,,
+Alive,1993-01-15,Adventure,R,73914543.0,,,
+The Hoax,2007-04-06,Drama,R,8779196.0,,,
+Fantasia,1940-11-13,Musical,G,2187090808.0,full credits,Ben Ali Gator,Jim Cummings
+Fantasia,1940-11-13,Musical,G,2187090808.0,full credits,Chernabog,Corey Burton
+Fantasia,1940-11-13,Musical,G,2187090808.0,full credits,Hyacinth Hippo,Tress MacNeille
+Fantasia,1940-11-13,Musical,G,2187090808.0,full credits,Madame Upanova,Tress MacNeille
+Fantasia,1940-11-13,Musical,G,2187090808.0,full credits,Melinda,None
+Fantasia,1940-11-13,Musical,G,2187090808.0,full credits,Yen Sid,Corey Burton
+Crimson Tide,1995-05-12,Action,R,177102077.0,,,
+Ransom,1996-11-08,Action,R,259807820.0,,,
+Pretty Woman,1990-03-23,Romantic Comedy,R,356389765.0,,,
+Inspector Gadget,1999-07-23,Comedy,PG,161610341.0,,,
+Winnie the Pooh,2011-07-15,Adventure,G,28375869.0,Stephen J. Anderson,,
+The Tigger Movie,2000-02-11,Adventure,G,71228678.0,,,
+Heavy Weights,1995-02-17,Comedy,PG,34245779.0,,,
+What About Bob?,1991-05-17,Comedy,PG,127571325.0,,,
+The Haunted Mansion,2003-11-26,Comedy,PG,105775678.0,,,
+The Hitchhiker's Guide to the Galaxy,2005-04-29,Comedy,PG,67096891.0,,,
+Pooh's Heffalump Movie,2005-02-11,Adventure,G,23801835.0,,Lumpy the Heffalump,Kyle Stanger
+Open Range,2003-08-15,Western,R,81547672.0,,,
+Meet the Deedles,1998-03-27,Comedy,PG,7829877.0,,,
+A Beautiful Planet,2016-04-29,Documentary,G,7895708.0,,,
+Sister Act,1992-05-29,Comedy,PG,283583472.0,,,
+Strange Magic,2015-01-23,Adventure,PG,12429583.0,,,
+Quiz Show,1994-09-14,Drama,PG-13,50840394.0,,,
+While You Were Sleeping,1995-04-21,Romantic Comedy,PG,157082900.0,,,
+Bedtime Stories,2008-12-25,Comedy,PG,128039679.0,,,
+"The Chronicles of Narnia: The Lion, t…",2005-12-09,Adventure,PG,381557539.0,,,
+Instinct,1999-06-04,Drama,R,56595842.0,,,
+Step Up,2006-08-11,Drama,PG-13,84078780.0,,,
+G.I. Jane,1997-08-22,Drama,R,88467531.0,,,
+Oscar,1991-04-26,Comedy,PG,47181395.0,,,
+The Parent Trap,1998-07-29,Comedy,PG,119185667.0,,,
+Primeval,2007-01-12,Adventure,R,12985302.0,,,
+The Lone Ranger,2013-07-02,Western,PG-13,92597388.0,,,
+"Monsters, Inc.",2001-11-02,Adventure,G,416073179.0,,,
+Reign of Fire,2002-02-19,Action,PG-13,62480631.0,,,
+Dinosaur,2000-05-19,Adventure,PG,215438985.0,Ralph Zondag,Aladar,D. B. Sweeney
+Dinosaur,2000-05-19,Adventure,PG,215438985.0,Ralph Zondag,Baylene,Joan Plowright
+Dinosaur,2000-05-19,Adventure,PG,215438985.0,Ralph Zondag,Bruton,Peter Siragusa
+Dinosaur,2000-05-19,Adventure,PG,215438985.0,Ralph Zondag,Eema,Della Reese
+Dinosaur,2000-05-19,Adventure,PG,215438985.0,Ralph Zondag,Kron,Samuel E. Wright
+Dinosaur,2000-05-19,Adventure,PG,215438985.0,Ralph Zondag,Neera,Julianna Margulies
+Dinosaur,2000-05-19,Adventure,PG,215438985.0,Ralph Zondag,Plio,Alfre Woodard
+Dinosaur,2000-05-19,Adventure,PG,215438985.0,Ralph Zondag,Suri,Hayden Panettiere
+Dinosaur,2000-05-19,Adventure,PG,215438985.0,Ralph Zondag,Url,None
+Dinosaur,2000-05-19,Adventure,PG,215438985.0,Ralph Zondag,Yar,Ossie Davis
+Dinosaur,2000-05-19,Adventure,PG,215438985.0,Ralph Zondag,Zini,Max Casella
+Rushmore,1998-12-11,Black Comedy,R,28392518.0,,,
+The 13th Warrior,1999-08-27,Action,R,54262148.0,,,
+Brave,2012-06-22,Adventure,PG,251292441.0,,,
+Eight Below,2006-02-17,Adventure,PG,105037235.0,,,
+Gake no ue no Ponyo,2009-08-14,Adventure,G,16961607.0,,,
+Queen of Katwe,2016-09-23,Drama,PG,8874389.0,,,
+Straight Talk,1992-04-03,Comedy,PG,43068356.0,,,
+Holy Man,1998-10-09,Comedy,PG,21694605.0,,,
+The Sorcerer's Apprentice,2010-07-14,Adventure,PG,67473105.0,,,
+Stella,1990-02-02,Drama,PG-13,40077147.0,,,
+An American Werewolf in Paris,1997-12-25,Horror,R,48546161.0,,,
+The Mighty Ducks,1992-10-02,Comedy,PG,103120810.0,,,
+Tall Tale,1995-03-24,Western,PG,15983331.0,,,
+Tangled,2010-11-24,Adventure,PG,214388548.0,Nathan Greno,Flynn Rider,Zachary Levi
+Tangled,2010-11-24,Adventure,PG,214388548.0,Nathan Greno,Hook Hand,Brad Garrett
+Tangled,2010-11-24,Adventure,PG,214388548.0,Nathan Greno,Maximus,None
+Tangled,2010-11-24,Adventure,PG,214388548.0,Nathan Greno,Mother Gothel,Donna Murphy
+Tangled,2010-11-24,Adventure,PG,214388548.0,Nathan Greno,Pascal,Frank Welker
+Tangled,2010-11-24,Adventure,PG,214388548.0,Nathan Greno,Rapunzel,Mandy Moore
+Tangled,2010-11-24,Adventure,PG,214388548.0,Nathan Greno,Stabbington Brothers,Ron Perlman
+Ed Wood,1994-09-30,Comedy,R,12042634.0,,,
+The Jerky Boys,1995-02-03,Comedy,R,14641561.0,,,
+The Rich Man's Wife,1996-09-13,Thriller/Suspense,R,16284619.0,,,
+Super Mario Bros.,1993-05-28,Action,PG,42445058.0,,,
+The Proposal,2009-06-19,Romantic Comedy,PG-13,184288829.0,,,
+Race to Witch Mountain,2009-03-13,Adventure,PG,75501997.0,,,
+The Adventures of Huck Finn,1993-04-02,Adventure,PG,49080505.0,,,
+Jefferson in Paris,1995-03-31,Drama,PG-13,4770461.0,,,
+The Jungle Book,2016-04-15,Adventure,PG,364001123.0,,,
+The Jungle Book,1967-10-18,Musical,Not Rated,789612346.0,,,
+Sky High,2005-07-29,Adventure,PG,84088854.0,,,
+Toy Story 2,1999-11-19,Adventure,G,404450426.0,,,
+Remember the Titans,2000-09-29,Drama,PG,180742479.0,,,
+A Lot Like Love,2005-04-22,Comedy,PG-13,28716947.0,,,
+3 Ninjas,1992-08-07,Action,PG,58965304.0,,,
+America's Heart and Soul,2004-07-02,Documentary,Not Rated,426246.0,,,
+Swing Vote,2008-08-01,Comedy,PG-13,19125841.0,,,
+The Straight Story,1999-10-15,Drama,G,10111144.0,,,
+The Kid,2000-07-07,Comedy,PG,108993148.0,,,
+Enchanted,2007-11-21,Romantic Comedy,PG,156074310.0,,Giselle,Amy Adams
+Enchanted,2007-11-21,Romantic Comedy,PG,156074310.0,,Nancy Tremaine,Idina Menzel
+Enchanted,2007-11-21,Romantic Comedy,PG,156074310.0,,Nathaniel,Timothy Spall
+Enchanted,2007-11-21,Romantic Comedy,PG,156074310.0,,Pip,Jeff Bennett; Kevin Lima
+Enchanted,2007-11-21,Romantic Comedy,PG,156074310.0,,Prince Edward,James Marsden
+Enchanted,2007-11-21,Romantic Comedy,PG,156074310.0,,Queen Narissa,Susan Sarandon
+Zootopia,2016-03-04,Adventure,PG,341268248.0,Byron Howard,Assistant Mayor Dawn Bellwether,Jenny Slate
+Zootopia,2016-03-04,Adventure,PG,341268248.0,Byron Howard,Benjamin Clawhauser,Nate Torrence
+Zootopia,2016-03-04,Adventure,PG,341268248.0,Byron Howard,Bonnie Hopps,Bonnie Hunt
+Zootopia,2016-03-04,Adventure,PG,341268248.0,Byron Howard,Bucky Oryx-Antlerson,Byron Howard
+Zootopia,2016-03-04,Adventure,PG,341268248.0,Byron Howard,Chief Bogo,Idris Elba
+Zootopia,2016-03-04,Adventure,PG,341268248.0,Byron Howard,Doug Ramses,Rich Moore
+Zootopia,2016-03-04,Adventure,PG,341268248.0,Byron Howard,Duke Weaselton,Alan Tudyk
+Zootopia,2016-03-04,Adventure,PG,341268248.0,Byron Howard,Emmitt Otterton,None
+Zootopia,2016-03-04,Adventure,PG,341268248.0,Byron Howard,Finnick,"Tommy ""Tiny"" Lister Jr."
+Zootopia,2016-03-04,Adventure,PG,341268248.0,Byron Howard,Flash Slothmore,Raymond S. Persi
+Zootopia,2016-03-04,Adventure,PG,341268248.0,Byron Howard,Gazelle,Shakira
+Zootopia,2016-03-04,Adventure,PG,341268248.0,Byron Howard,Jerry Jumbeaux Jr.,John DiMaggio
+Zootopia,2016-03-04,Adventure,PG,341268248.0,Byron Howard,Jesse the Ram,John DiMaggio
+Zootopia,2016-03-04,Adventure,PG,341268248.0,Byron Howard,Judy Hopps,Ginnifer Goodwin
+Zootopia,2016-03-04,Adventure,PG,341268248.0,Byron Howard,Mayor Lionheart,J.K. Simmons
+Zootopia,2016-03-04,Adventure,PG,341268248.0,Byron Howard,Mr. Big,Maurice LaMarche
+Zootopia,2016-03-04,Adventure,PG,341268248.0,Byron Howard,Mrs. Otterton,Octavia Spencer
+Zootopia,2016-03-04,Adventure,PG,341268248.0,Byron Howard,"Nicholas ""Nick"" P. Wilde",Jason Bateman
+Zootopia,2016-03-04,Adventure,PG,341268248.0,Byron Howard,Pronk Oryx-Antlerson,Jared Bush
+Zootopia,2016-03-04,Adventure,PG,341268248.0,Byron Howard,Stu Hopps,Don Lake
+Zootopia,2016-03-04,Adventure,PG,341268248.0,Byron Howard,Woolter the Ram,John DiMaggio
+Zootopia,2016-03-04,Adventure,PG,341268248.0,Byron Howard,Yax,Tommy Chong
+I'll Be Home For Christmas,1998-11-13,Comedy,PG,21941840.0,,,
+The War at Home,1996-11-20,Comedy,R,65543.0,,,
+Peter Pan: Return to Neverland,2002-02-15,Adventure,G,70269715.0,,,
+Ratatouille,2007-06-29,Comedy,G,252955933.0,,,
+Secretariat,2010-10-08,Drama,PG,63781920.0,,,
+Medicine Man,1992-02-07,Drama,PG-13,91304495.0,,,
+A Thousand Acres,1997-09-19,Drama,R,14561324.0,,,
+Mission to Mars,2000-03-10,Adventure,PG,95208344.0,,,
+Brother Bear,2003-10-24,Adventure,G,119218333.0,Robert Walker,Denahi,Jason Raize
+Brother Bear,2003-10-24,Adventure,G,119218333.0,Robert Walker,Kenai,Joaquin Phoenix
+Brother Bear,2003-10-24,Adventure,G,119218333.0,Robert Walker,Koda,Jeremy Suarez
+Brother Bear,2003-10-24,Adventure,G,119218333.0,Robert Walker,Rutt and Tuke,Rick Moranis; Dave Thomas
+Brother Bear,2003-10-24,Adventure,G,119218333.0,Robert Walker,Sitka,D. B. Sweeney
+Brother Bear,2003-10-24,Adventure,G,119218333.0,Robert Walker,Tanana,Joan Copeland
+Brother Bear,2003-10-24,Adventure,G,119218333.0,Robert Walker,Tug,Michael Clarke Duncan
+Snow White and the Seven Dwarfs,1937-12-21,Musical,G,5228953251.0,David Hand,Bashful,Scotty Mattraw
+Snow White and the Seven Dwarfs,1937-12-21,Musical,G,5228953251.0,David Hand,Doc,Roy Atwell
+Snow White and the Seven Dwarfs,1937-12-21,Musical,G,5228953251.0,David Hand,Dopey,Eddie Collins
+Snow White and the Seven Dwarfs,1937-12-21,Musical,G,5228953251.0,David Hand,Grumpy,Pinto Colvig
+Snow White and the Seven Dwarfs,1937-12-21,Musical,G,5228953251.0,David Hand,Happy,Otis Harlan
+Snow White and the Seven Dwarfs,1937-12-21,Musical,G,5228953251.0,David Hand,Humbert the Huntsman,Stuart Buchanan
+Snow White and the Seven Dwarfs,1937-12-21,Musical,G,5228953251.0,David Hand,The Magic Mirror,Moroni Olsen
+Snow White and the Seven Dwarfs,1937-12-21,Musical,G,5228953251.0,David Hand,Prince,Harry Stockwell
+Snow White and the Seven Dwarfs,1937-12-21,Musical,G,5228953251.0,David Hand,Queen Grimhilde,Lucille La Verne
+Snow White and the Seven Dwarfs,1937-12-21,Musical,G,5228953251.0,David Hand,Sleepy,Pinto Colvig
+Snow White and the Seven Dwarfs,1937-12-21,Musical,G,5228953251.0,David Hand,Sneezy,Billy Gilbert
+Snow White and the Seven Dwarfs,1937-12-21,Musical,G,5228953251.0,David Hand,Snow White,Adriana Caselotti
+Toy Story 3,2010-06-18,Adventure,G,443408255.0,,,
+Miracle,2004-02-06,Drama,PG,87392478.0,,,
+My Favorite Martian,1999-02-12,Comedy,PG,61150849.0,,,
+A Far Off Place,1993-03-12,Adventure,PG,26248558.0,,,
+Old Dogs,2009-11-25,Comedy,PG,55503929.0,,,
+Alice in Wonderland,2010-03-05,Adventure,PG,357063499.0,Clyde Geronimi,Alice,Kathryn Beaumont
+Alice in Wonderland,2010-03-05,Adventure,PG,357063499.0,Clyde Geronimi,Alice's Sister,Heather Angel
+Alice in Wonderland,2010-03-05,Adventure,PG,357063499.0,Clyde Geronimi,Bill the Lizard,Larry Grey
+Alice in Wonderland,2010-03-05,Adventure,PG,357063499.0,Clyde Geronimi,The Carpenter,J. Pat O'Malley
+Alice in Wonderland,2010-03-05,Adventure,PG,357063499.0,Clyde Geronimi,The Caterpillar,Richard Haydn
+Alice in Wonderland,2010-03-05,Adventure,PG,357063499.0,Clyde Geronimi,Cheshire Cat,Sterling Holloway
+Alice in Wonderland,2010-03-05,Adventure,PG,357063499.0,Clyde Geronimi,Dinah the Cat,None
+Alice in Wonderland,2010-03-05,Adventure,PG,357063499.0,Clyde Geronimi,The Dodo,Bill Thompson
+Alice in Wonderland,2010-03-05,Adventure,PG,357063499.0,Clyde Geronimi,The Doorknob,Joseph Kearns
+Alice in Wonderland,2010-03-05,Adventure,PG,357063499.0,Clyde Geronimi,The Dormouse,Jimmy MacDonald
+Alice in Wonderland,2010-03-05,Adventure,PG,357063499.0,Clyde Geronimi,The King of Hearts,Dink Trout
+Alice in Wonderland,2010-03-05,Adventure,PG,357063499.0,Clyde Geronimi,Mad Hatter,Ed Wynn
+Alice in Wonderland,2010-03-05,Adventure,PG,357063499.0,Clyde Geronimi,March Hare,Jerry Colonna
+Alice in Wonderland,2010-03-05,Adventure,PG,357063499.0,Clyde Geronimi,The Queen of Hearts,Verna Felton
+Alice in Wonderland,2010-03-05,Adventure,PG,357063499.0,Clyde Geronimi,The Rose,Doris Lloyd
+Alice in Wonderland,2010-03-05,Adventure,PG,357063499.0,Clyde Geronimi,Tweedledum and Tweedledee,J. Pat O'Malley
+Alice in Wonderland,2010-03-05,Adventure,PG,357063499.0,Clyde Geronimi,The Walrus,J. Pat O'Malley
+Alice in Wonderland,2010-03-05,Adventure,PG,357063499.0,Clyde Geronimi,White Rabbit,Bill Thompson
+The Little Mermaid,1989-11-15,Adventure,G,223726012.0,Ron Clements,Adella,Sherry Lynn
+The Little Mermaid,1989-11-15,Adventure,G,223726012.0,Ron Clements,Alana,Kimmy Robertson
+The Little Mermaid,1989-11-15,Adventure,G,223726012.0,Ron Clements,Andrina,Tara Strong
+The Little Mermaid,1989-11-15,Adventure,G,223726012.0,Ron Clements,Aquata,Grey DeLisle; Mona Marshall
+The Little Mermaid,1989-11-15,Adventure,G,223726012.0,Ron Clements,Ariel,Jodi Benson
+The Little Mermaid,1989-11-15,Adventure,G,223726012.0,Ron Clements,Arista,Kimmy Robertson
+The Little Mermaid,1989-11-15,Adventure,G,223726012.0,Ron Clements,Attina,Kari Wahlgren
+The Little Mermaid,1989-11-15,Adventure,G,223726012.0,Ron Clements,Carlotta the Maid,Edie McClurg
+The Little Mermaid,1989-11-15,Adventure,G,223726012.0,Ron Clements,Chef Louis,Rene Auberjonois
+The Little Mermaid,1989-11-15,Adventure,G,223726012.0,Ron Clements,Flotsam and Jetsam,Paddi Edwards
+The Little Mermaid,1989-11-15,Adventure,G,223726012.0,Ron Clements,Flounder,Jason Marin
+The Little Mermaid,1989-11-15,Adventure,G,223726012.0,Ron Clements,Grimsby,Ben Wright
+The Little Mermaid,1989-11-15,Adventure,G,223726012.0,Ron Clements,Harold the Seahorse,Will Ryan
+The Little Mermaid,1989-11-15,Adventure,G,223726012.0,Ron Clements,King Triton,Kenneth Mars
+The Little Mermaid,1989-11-15,Adventure,G,223726012.0,Ron Clements,Max the Sheepdog,Frank Welker
+The Little Mermaid,1989-11-15,Adventure,G,223726012.0,Ron Clements,Prince Eric,Christopher Daniel Barnes
+The Little Mermaid,1989-11-15,Adventure,G,223726012.0,Ron Clements,Scuttle,Buddy Hackett
+The Little Mermaid,1989-11-15,Adventure,G,223726012.0,Ron Clements,Sebastian,Samuel E. Wright
+The Little Mermaid,1989-11-15,Adventure,G,223726012.0,Ron Clements,Ursula,Pat Carroll
+The Little Mermaid,1989-11-15,Adventure,G,223726012.0,Ron Clements,Vanessa (The Little Mermaid),Pat Carroll; Jodi Benson
+Stick It,2006-04-28,Comedy,PG-13,34634731.0,,,
+Funny Bones,1995-03-31,Comedy,R,1025425.0,,,
+Cars,2006-06-09,Comedy,G,314140384.0,,,
+Bicentennial Man,1999-12-17,Drama,PG,94838225.0,,,
+Chimpanzee,2012-04-20,Documentary,G,30675725.0,,,
+The Other Sister,1999-02-26,Romantic Comedy,PG-13,46145331.0,,,
+A Simple Twist of Fate,1994-09-02,Drama,PG-13,7035189.0,,,
+Kaze Tachinu,2013-11-08,Drama,PG-13,5367415.0,,,
+The Greatest Game Ever Played,2005-09-30,Drama,PG,20162672.0,,,
+The Three Musketeers,1993-11-12,Adventure,PG,109310377.0,,,
+A Civil Action,1998-12-25,Drama,PG-13,94139530.0,,,
+Walt and El Grupo,2009-09-10,Documentary,PG,23064.0,,,
+Powder,1995-10-27,Drama,PG-13,59727216.0,,,
+1492: Conquest of Paradise,1992-10-09,Adventure,PG-13,14421454.0,,,
+The Cemetery Club,1993-02-03,Comedy,PG-13,11369541.0,,,
+Stay Alive,2006-03-24,Horror,PG-13,29712825.0,,,
+That Darn Cat,1997-02-14,Comedy,PG,33613158.0,,,
+The Muppet Christmas Carol,1992-12-11,Comedy,G,55417615.0,,,
+Step Up 2 the Streets,2008-02-14,Drama,PG-13,68118371.0,,,
+Fantasia 2000 (Theatrical Release),2000-06-16,Musical,G,14238144.0,,,
+The Santa Clause 2,2002-11-01,Comedy,G,201959095.0,,,
+The Recruit,2003-01-31,Thriller/Suspense,PG-13,73793522.0,,,
+Money for Nothing,1993-09-10,Comedy,R,2127496.0,,,
+Bad Company,1995-01-20,Thriller/Suspense,R,6829092.0,,,
+Bad Company,2002-06-07,Action,PG-13,43756218.0,,,
+I Love Trouble,1994-06-29,Romantic Comedy,PG,63651027.0,,,
+Jungle 2 Jungle,1997-03-07,Comedy,PG,110058379.0,,,
+Life With Mikey,1993-06-04,Comedy,PG,25146538.0,,,
+Gone Fishin',1997-05-30,Comedy,PG,36265379.0,,,
+Rogue One: A Star Wars Story,2016-12-16,Adventure,PG-13,529483936.0,,,
+The Marrying Man,1991-04-05,Romantic Comedy,R,24939118.0,,,
+Bubble Boy,2001-08-24,Comedy,PG-13,7450434.0,,,
+High Heels and Low Lifes,2001-10-26,Action,R,337782.0,,,
+The Tie That Binds,1995-09-08,Thriller/Suspense,R,11167895.0,,,
+John Carter,2012-03-09,Adventure,PG-13,77372445.0,,,
+Blank Check,1994-02-11,Comedy,PG,63170804.0,,,
+Guardians of the Galaxy,2014-08-01,Adventure,PG-13,343771168.0,,,
+Star Wars Ep. VII: The Force Awakens,2015-12-18,Adventure,PG-13,936662225.0,,,
+A Goofy Movie,1995-04-07,Comedy,G,68479579.0,,Powerline,Tevin Campbell
+A Goofy Movie,1995-04-07,Comedy,G,68479579.0,,Principal Mazur,Wallace Shawn
+A Goofy Movie,1995-04-07,Comedy,G,68479579.0,,"Robert ""Bobby"" Zimmeruski",Pauly Shore
+A Goofy Movie,1995-04-07,Comedy,G,68479579.0,,Roxanne,Kellie Martin
+Hocus Pocus,1993-07-16,Comedy,PG,80147079.0,,,
+Pete’s Dragon,2016-08-12,Adventure,PG,76233151.0,,,
+Lilo & Stitch,2002-06-21,Adventure,PG,211506702.0,Chris Sanders,Agent Wendy Pleakley,Kevin McDonald
+Lilo & Stitch,2002-06-21,Adventure,PG,211506702.0,Chris Sanders,Cobra Bubbles,Ving Rhames
+Lilo & Stitch,2002-06-21,Adventure,PG,211506702.0,Chris Sanders,David Kawena,Jason Scott Lee
+Lilo & Stitch,2002-06-21,Adventure,PG,211506702.0,Chris Sanders,Dr. Jumba Jookiba,David Ogden Stiers
+Lilo & Stitch,2002-06-21,Adventure,PG,211506702.0,Chris Sanders,Captain Gantu,Kevin Michael Richardson
+Lilo & Stitch,2002-06-21,Adventure,PG,211506702.0,Chris Sanders,Grand Councilwoman,Zoe Caldwell
+Lilo & Stitch,2002-06-21,Adventure,PG,211506702.0,Chris Sanders,Lilo Pelekai,Daveigh Chase
+Lilo & Stitch,2002-06-21,Adventure,PG,211506702.0,Chris Sanders,Mrs. Hasagawa,Amy Hill
+Lilo & Stitch,2002-06-21,Adventure,PG,211506702.0,Chris Sanders,Myrtle Edmonds,Miranda Paige Walls; Liliana Mumy
+Lilo & Stitch,2002-06-21,Adventure,PG,211506702.0,Chris Sanders,Nani Pelekai,Tia Carrere
+Lilo & Stitch,2002-06-21,Adventure,PG,211506702.0,Chris Sanders,Stitch,Chris Sanders
+Metro,1997-01-17,Action,R,58804106.0,,,
+National Treasure,2004-11-19,Adventure,PG,234069353.0,,,
+Shanghai Noon,2000-05-26,Western,PG-13,89042541.0,,,
+Dangerous Minds,1995-08-11,Drama,R,164552293.0,,,
+The Distinguished Gentleman,1992-12-04,Comedy,R,94349900.0,,,
+The Secret World of Arietty,2012-02-17,Adventure,G,20325733.0,,,
+The Princess Diaries,2001-08-03,Comedy,G,161218928.0,,,
+Step Up 3D,2010-08-06,Drama,PG-13,45302137.0,,,
+Underdog,2007-08-03,Adventure,PG,53619462.0,,,
+Red Rock West,1994-01-28,Crime,R,5170709.0,,,
+Captain America: Civil War,2016-05-06,Action,PG-13,408084349.0,,,
+Mr. Wrong,1996-02-16,Romantic Comedy,PG-13,24422334.0,,,
+Nixon,1995-12-20,Drama,R,26302005.0,,,
+The Ref,1994-03-09,Comedy,R,23401275.0,,,
+The Santa Clause 3: The Escape Clause,2006-11-03,Comedy,G,108694869.0,,,
+Ice Princess,2005-03-18,Comedy,G,32064685.0,,,
+King Arthur,2004-07-07,Adventure,PG-13,70423706.0,,,
+Nothing To Lose,1997-07-18,Comedy,R,81692095.0,,,
+Herbie: Fully Loaded,2005-06-22,Comedy,G,86812798.0,,,
+Father of the Bride,1991-12-20,Comedy,PG,179821881.0,,,
+You Again,2010-09-24,Comedy,PG,27461121.0,,,
+Treasure Planet,2002-11-27,Adventure,PG,55189145.0,Ron Clements,B.E.N.,Martin Short
+Treasure Planet,2002-11-27,Adventure,PG,55189145.0,Ron Clements,Billy Bones,Patrick McGoohan
+Treasure Planet,2002-11-27,Adventure,PG,55189145.0,Ron Clements,Captain Amelia,Emma Thompson
+Treasure Planet,2002-11-27,Adventure,PG,55189145.0,Ron Clements,Dr. Doppler,David Hyde Pierce
+Treasure Planet,2002-11-27,Adventure,PG,55189145.0,Ron Clements,Hands,Micheal McShane
+Treasure Planet,2002-11-27,Adventure,PG,55189145.0,Ron Clements,Jim Hawkins,Joseph Gordon-Levitt
+Treasure Planet,2002-11-27,Adventure,PG,55189145.0,Ron Clements,John Silver,Brian Murray
+Treasure Planet,2002-11-27,Adventure,PG,55189145.0,Ron Clements,Morph,Dane A. Davis
+Treasure Planet,2002-11-27,Adventure,PG,55189145.0,Ron Clements,Mr. Arrow,Roscoe Lee Browne
+Treasure Planet,2002-11-27,Adventure,PG,55189145.0,Ron Clements,Onus,Corey Burton
+Treasure Planet,2002-11-27,Adventure,PG,55189145.0,Ron Clements,Sarah Hawkins,Laurie Metcalf
+Treasure Planet,2002-11-27,Adventure,PG,55189145.0,Ron Clements,Scroop,Michael Wincott
+Cinderella,2015-03-13,Drama,PG,201151353.0,Wilfred Jackson,Anastasia Tremaine,Lucille Bliss
+Cinderella,2015-03-13,Drama,PG,201151353.0,Wilfred Jackson,Bruno the Dog,Jimmy MacDonald; Frank Welker
+Cinderella,2015-03-13,Drama,PG,201151353.0,Wilfred Jackson,Cinderella,Ilene Woods
+Cinderella,2015-03-13,Drama,PG,201151353.0,Wilfred Jackson,The Doorman,Don Barclay
+Cinderella,2015-03-13,Drama,PG,201151353.0,Wilfred Jackson,Drizella Tremaine,Rhoda Williams; Russi Taylor
+Cinderella,2015-03-13,Drama,PG,201151353.0,Wilfred Jackson,Fairy Godmother,Verna Felton; Russi Taylor
+Cinderella,2015-03-13,Drama,PG,201151353.0,Wilfred Jackson,Footman,Larry Grey
+Cinderella,2015-03-13,Drama,PG,201151353.0,Wilfred Jackson,The Grand Duke,Luis Van Rooten; Rob Paulsen
+Cinderella,2015-03-13,Drama,PG,201151353.0,Wilfred Jackson,Gus Lollygagger,Jimmy MacDonald; Corey Burton
+Cinderella,2015-03-13,Drama,PG,201151353.0,Wilfred Jackson,"Jackson ""Jaq"" Hopscotch",Jimmy MacDonald; Rob Paulsen
+Cinderella,2015-03-13,Drama,PG,201151353.0,Wilfred Jackson,The King,Luis Van Rooten
+Cinderella,2015-03-13,Drama,PG,201151353.0,Wilfred Jackson,Lady Tremaine,Eleanor Audley; Susanne Blakeslee
+Cinderella,2015-03-13,Drama,PG,201151353.0,Wilfred Jackson,Lucifer the Cat,June Foray
+Cinderella,2015-03-13,Drama,PG,201151353.0,Wilfred Jackson,Major the Horse,None
+Cinderella,2015-03-13,Drama,PG,201151353.0,Wilfred Jackson,Prince Charming,William Phipps
+Cinderella,1950-02-15,Drama,G,920608730.0,Wilfred Jackson,Anastasia Tremaine,Lucille Bliss
+Cinderella,1950-02-15,Drama,G,920608730.0,Wilfred Jackson,Bruno the Dog,Jimmy MacDonald; Frank Welker
+Cinderella,1950-02-15,Drama,G,920608730.0,Wilfred Jackson,Cinderella,Ilene Woods
+Cinderella,1950-02-15,Drama,G,920608730.0,Wilfred Jackson,The Doorman,Don Barclay
+Cinderella,1950-02-15,Drama,G,920608730.0,Wilfred Jackson,Drizella Tremaine,Rhoda Williams; Russi Taylor
+Cinderella,1950-02-15,Drama,G,920608730.0,Wilfred Jackson,Fairy Godmother,Verna Felton; Russi Taylor
+Cinderella,1950-02-15,Drama,G,920608730.0,Wilfred Jackson,Footman,Larry Grey
+Cinderella,1950-02-15,Drama,G,920608730.0,Wilfred Jackson,The Grand Duke,Luis Van Rooten; Rob Paulsen
+Cinderella,1950-02-15,Drama,G,920608730.0,Wilfred Jackson,Gus Lollygagger,Jimmy MacDonald; Corey Burton
+Cinderella,1950-02-15,Drama,G,920608730.0,Wilfred Jackson,"Jackson ""Jaq"" Hopscotch",Jimmy MacDonald; Rob Paulsen
+Cinderella,1950-02-15,Drama,G,920608730.0,Wilfred Jackson,The King,Luis Van Rooten
+Cinderella,1950-02-15,Drama,G,920608730.0,Wilfred Jackson,Lady Tremaine,Eleanor Audley; Susanne Blakeslee
+Cinderella,1950-02-15,Drama,G,920608730.0,Wilfred Jackson,Lucifer the Cat,June Foray
+Cinderella,1950-02-15,Drama,G,920608730.0,Wilfred Jackson,Major the Horse,None
+Cinderella,1950-02-15,Drama,G,920608730.0,Wilfred Jackson,Prince Charming,William Phipps
+Frozen,2013-11-22,Adventure,PG,414997174.0,Chris Buck,Anna,Kristen Bell
+Frozen,2013-11-22,Adventure,PG,414997174.0,Chris Buck,Duke of Weselton,Alan Tudyk
+Frozen,2013-11-22,Adventure,PG,414997174.0,Chris Buck,Elsa,Idina Menzel
+Frozen,2013-11-22,Adventure,PG,414997174.0,Chris Buck,Kristoff,Jonathan Groff
+Frozen,2013-11-22,Adventure,PG,414997174.0,Chris Buck,Oaken,Chris Williams
+Frozen,2013-11-22,Adventure,PG,414997174.0,Chris Buck,Olaf,Josh Gad
+Frozen,2013-11-22,Adventure,PG,414997174.0,Chris Buck,Prince Hans,Santino Fontana
+Frozen,2013-11-22,Adventure,PG,414997174.0,Chris Buck,Sven,None
+Pirates of the Caribbean: On Stranger…,2011-05-20,Adventure,PG-13,256263359.0,,,
+Zokkomon,2011-04-22,Adventure,PG,2984.0,,,
+Gross Anatomy,1989-10-20,Drama,PG-13,23972012.0,,,
+The Incredibles,2004-11-05,Adventure,PG,354488708.0,,,
+Taking Care of Business,1990-08-17,Comedy,R,39963460.0,,,
+Tim Burton's The Nightmare Before Chr…,2006-10-20,Musical,PG,30737517.0,,,
+Cocktail,1988-07-29,Drama,R,160442289.0,,,
+Gun Shy,2000-02-04,Comedy,R,2562155.0,,,
+Mr. Destiny,1990-10-12,Comedy,PG-13,30722056.0,,,
+Evita,1996-12-25,Musical,PG,92077628.0,,,
+Dark Water,2005-07-08,Thriller/Suspense,PG-13,33500491.0,,,
+Piglet's Big Movie,2003-03-21,Comedy,G,32298812.0,,,
+Kazaam,1996-07-17,Comedy,PG,36009655.0,,,
+Déjà Vu,2006-11-22,Thriller/Suspense,PG-13,82267038.0,,,
+Waking Sleeping Beauty,2010-03-26,Documentary,PG,86264.0,,,
+The Count of Monte Cristo,2002-01-25,Drama,PG-13,78682079.0,,,
+The Program,1993-09-24,Action,R,46919256.0,,,
+When in Rome,2010-01-29,Romantic Comedy,PG-13,34917330.0,,,
+Born Yesterday,1993-03-26,Romantic Comedy,PG,36165012.0,,,
+The Alamo,2004-04-09,Western,PG-13,30416359.0,,,
+Mad Love,1995-05-26,Drama,PG-13,29934306.0,,,
+Armageddon,1998-07-01,Adventure,PG-13,362324957.0,,,
+Air Bud,1997-08-01,Comedy,PG,45266588.0,,,
+Fire Birds,1990-05-24,Action,PG-13,29485923.0,,,
+Oz the Great and Powerful,2013-03-08,Adventure,PG,243434130.0,,,
+Two Much,1996-03-15,Romantic Comedy,PG-13,2057055.0,,,
+102 Dalmatians,2000-11-22,Comedy,G,104055039.0,,,
+The Pacifier,2005-03-04,Comedy,PG,148619029.0,,,
+Prom,2011-04-29,Comedy,PG,10768946.0,,,
+Un indien dans la ville,1996-03-22,Comedy,PG,1963937.0,,,
+Annapolis,2006-01-27,Drama,PG-13,22044113.0,,,
+The Country Bears,2002-07-26,Adventure,G,24650121.0,,Beary Barrington,Haley Joel Osment
+The Country Bears,2002-07-26,Adventure,G,24650121.0,,Big Al,James Gammon
+The Country Bears,2002-07-26,Adventure,G,24650121.0,,Dex Barrington,Justin Berfield
+The Country Bears,2002-07-26,Adventure,G,24650121.0,,Ted Betterhead,Diedrich Bader
+Planes: Fire and Rescue,2014-07-18,Adventure,PG,61040349.0,,,
+Renaissance Man,1994-06-03,Comedy,PG-13,49945474.0,,,
+Playing God,1997-10-17,Thriller/Suspense,R,7652965.0,,,
+Phenomenon,1996-07-05,Drama,PG,199559799.0,,,
+Gnomeo and Juliet,2011-02-11,Comedy,G,106270797.0,,,
+The Color of Money,1986-10-17,Drama,R,117957323.0,,,
+Ernest Scared Stupid,1991-10-11,Comedy,PG,28320147.0,,,
+The Emperor's New Groove,2000-12-15,Adventure,G,136789252.0,Mark Dindal,Bucky the Squirrel,Bob Bergen
+The Emperor's New Groove,2000-12-15,Adventure,G,136789252.0,Mark Dindal,Chaca,Kellyann Kelso
+The Emperor's New Groove,2000-12-15,Adventure,G,136789252.0,Mark Dindal,Chicha,Wendie Malick
+The Emperor's New Groove,2000-12-15,Adventure,G,136789252.0,Mark Dindal,Kronk Pepikrankenitz,Patrick Warburton
+The Emperor's New Groove,2000-12-15,Adventure,G,136789252.0,Mark Dindal,Kuzco,David Spade
+The Emperor's New Groove,2000-12-15,Adventure,G,136789252.0,Mark Dindal,Pacha,John Goodman
+The Emperor's New Groove,2000-12-15,Adventure,G,136789252.0,Mark Dindal,Tipo,Eli Russell Linnetz
+The Emperor's New Groove,2000-12-15,Adventure,G,136789252.0,Mark Dindal,Yzma,Eartha Kitt
+Double Take,2001-01-12,Action,PG-13,44418589.0,,,
+Rocket Man,1997-10-10,Comedy,PG,28371890.0,,,
+Mulan,1998-06-19,Adventure,G,216807832.0,Barry Cook,Chi-Fu,James Hong
+Mulan,1998-06-19,Adventure,G,216807832.0,Barry Cook,Chien-Po,Jerry Tondo
+Mulan,1998-06-19,Adventure,G,216807832.0,Barry Cook,Cri-Kee,None
+Mulan,1998-06-19,Adventure,G,216807832.0,Barry Cook,Emperor of China,Pat Morita
+Mulan,1998-06-19,Adventure,G,216807832.0,Barry Cook,Fa Li,Freda Foh Shen
+Mulan,1998-06-19,Adventure,G,216807832.0,Barry Cook,Fa Zhou,Soon-Tek Oh
+Mulan,1998-06-19,Adventure,G,216807832.0,Barry Cook,First Ancestor Fa,George Takei
+Mulan,1998-06-19,Adventure,G,216807832.0,Barry Cook,General Li,James Shigeta
+Mulan,1998-06-19,Adventure,G,216807832.0,Barry Cook,Grandmother Fa,June Foray
+Mulan,1998-06-19,Adventure,G,216807832.0,Barry Cook,Li Shang,B.D. Wong
+Mulan,1998-06-19,Adventure,G,216807832.0,Barry Cook,Ling,Gedde Watanabe
+Mulan,1998-06-19,Adventure,G,216807832.0,Barry Cook,The Matchmaker,Miriam Margoyles
+Mulan,1998-06-19,Adventure,G,216807832.0,Barry Cook,Mulan,Ming-Na Wen; Lea Salonga
+Mulan,1998-06-19,Adventure,G,216807832.0,Barry Cook,Mushu,Eddie Murphy
+Mulan,1998-06-19,Adventure,G,216807832.0,Barry Cook,Shan Yu,Miguel Ferrer
+Mulan,1998-06-19,Adventure,G,216807832.0,Barry Cook,Yao,Harvey Fierstein
+Song of the South,1946-11-12,Adventure,G,1078510579.0,,Br'er Bear,Nick Stewart
+Song of the South,1946-11-12,Adventure,G,1078510579.0,,Br'er Fox,James Baskett
+Song of the South,1946-11-12,Adventure,G,1078510579.0,,Br'er Rabbit,Johnny Lee
+Raising Helen,2004-05-28,Comedy,PG-13,50886144.0,,,
+A Gun in Betty Lou's Handbag,1992-08-21,Comedy,PG-13,7295423.0,,,
+The Air Up There,1994-01-07,Comedy,PG,42940186.0,,,
+Roommates,1995-03-03,Comedy,PG,23404369.0,,,
+Morning Light,2008-10-17,Documentary,PG,322979.0,,,
+Valiant,2005-08-19,Adventure,G,25616292.0,,,
+Down and Out in Beverly Hills,1986-01-31,Comedy,R,141183693.0,,,
+Tarzan,1999-06-16,Adventure,G,283900254.0,Chris Buck,Archimedes Q. Porter,Nigel Hawthorne
+Tarzan,1999-06-16,Adventure,G,283900254.0,Chris Buck,Clayton,Brian Blessed
+Tarzan,1999-06-16,Adventure,G,283900254.0,Chris Buck,Jane Porter,Minnie Driver
+Tarzan,1999-06-16,Adventure,G,283900254.0,Chris Buck,Kala,Glenn Close
+Tarzan,1999-06-16,Adventure,G,283900254.0,Chris Buck,Kerchak,Lance Henriksen
+Tarzan,1999-06-16,Adventure,G,283900254.0,Chris Buck,Mungo,Jason Marsden
+Tarzan,1999-06-16,Adventure,G,283900254.0,Chris Buck,Tantor,Wayne Knight
+Tarzan,1999-06-16,Adventure,G,283900254.0,Chris Buck,Tarzan,Tony Goldwyn
+Tarzan,1999-06-16,Adventure,G,283900254.0,Chris Buck,Tarzan,Alex D. Linz
+Tarzan,1999-06-16,Adventure,G,283900254.0,Chris Buck,Terk,Rosie O'Donnell
+The Royal Tenenbaums,2001-12-14,Black Comedy,R,76758193.0,,,
+James and the Giant Peach,1996-04-12,Adventure,PG,55159783.0,,,
+"Mystery, Alaska",1999-10-01,Comedy,R,14755189.0,,,
+Last Dance,1996-05-03,Drama,R,11171714.0,,,
+Homeward Bound II: Lost in San Franc…,1996-03-08,Adventure,G,62384706.0,,,
+The Muppets,2011-11-23,Comedy,PG,94189503.0,,,
+Turner & Hooch,1989-07-28,Comedy,PG,150176361.0,,,
+Oceans,2010-04-22,Documentary,G,20751600.0,,,
+The Finest Hours,2016-01-29,Thriller/Suspense,PG,27569558.0,,,
+Hannah Montana the Movie,2009-04-10,Drama,G,89443640.0,,,
+First Kid,1996-08-30,Comedy,PG,50465108.0,,,
+Consenting Adults,1992-10-16,Drama,R,43859823.0,,,
+Dan in Real Life,2007-10-20,Romantic Comedy,PG-13,58350234.0,,,
+Sorority Boys,2002-03-22,Comedy,R,14797862.0,,,
+Simon Birch,1998-09-11,Drama,PG,32809442.0,,,
+In the Army Now,1994-08-12,Comedy,PG,59673787.0,,,
+Wreck-It Ralph,2012-11-02,Adventure,PG,200354959.0,Rich Moore,Adorabeezle Winterpop,None
+Wreck-It Ralph,2012-11-02,Adventure,PG,200354959.0,Rich Moore,Candlehead,Katie Lowes
+Wreck-It Ralph,2012-11-02,Adventure,PG,200354959.0,Rich Moore,Crumbelina DiCaramello,Cymbre Walk
+Wreck-It Ralph,2012-11-02,Adventure,PG,200354959.0,Rich Moore,Duncan,Horatio Sanz
+Wreck-It Ralph,2012-11-02,Adventure,PG,200354959.0,Rich Moore,Fix-It Felix Jr.,Jack McBrayer
+Wreck-It Ralph,2012-11-02,Adventure,PG,200354959.0,Rich Moore,General Hologram,Dennis Haysbert
+Wreck-It Ralph,2012-11-02,Adventure,PG,200354959.0,Rich Moore,Gloyd Orangeboar,None
+Wreck-It Ralph,2012-11-02,Adventure,PG,200354959.0,Rich Moore,Jubileena Bing-Bing,Josie Trinidad
+Wreck-It Ralph,2012-11-02,Adventure,PG,200354959.0,Rich Moore,King Candy/Turbo,Alan Tudyk
+Wreck-It Ralph,2012-11-02,Adventure,PG,200354959.0,Rich Moore,Mr. Litwak,Ed O'Neill
+Wreck-It Ralph,2012-11-02,Adventure,PG,200354959.0,Rich Moore,Markowski,Joe Lo Truglio
+Wreck-It Ralph,2012-11-02,Adventure,PG,200354959.0,Rich Moore,Minty Zaki,None
+Wreck-It Ralph,2012-11-02,Adventure,PG,200354959.0,Rich Moore,Rancis Fluggerbutter,Jamie Elman
+Wreck-It Ralph,2012-11-02,Adventure,PG,200354959.0,Rich Moore,Sergeant Calhoun,Jane Lynch
+Wreck-It Ralph,2012-11-02,Adventure,PG,200354959.0,Rich Moore,Snowanna Rainbeau,None
+Wreck-It Ralph,2012-11-02,Adventure,PG,200354959.0,Rich Moore,Sour Bill,Rich Moore
+Wreck-It Ralph,2012-11-02,Adventure,PG,200354959.0,Rich Moore,"Swizzle ""The Swizz"" Malarkey",None
+Wreck-It Ralph,2012-11-02,Adventure,PG,200354959.0,Rich Moore,Taffyta Muttonfudge,Mindy Kaling
+Wreck-It Ralph,2012-11-02,Adventure,PG,200354959.0,Rich Moore,Vanellope von Schweetz,Sarah Silverman
+Wreck-It Ralph,2012-11-02,Adventure,PG,200354959.0,Rich Moore,Wreck-It Ralph,John C. Reilly
+Wreck-It Ralph,2012-11-02,Adventure,PG,200354959.0,Rich Moore,Wynchel,Adam Carolla
+Iron Man 3,2013-05-03,Action,PG-13,424084233.0,,,
+Beverly Hills Chihuahua,2008-10-03,Comedy,PG,110932022.0,,,
+WALL-E,2008-06-27,Adventure,G,262771918.0,,,
+Aladdin,1992-11-11,Comedy,G,441969178.0,Ron Clements,Abu,Frank Welker
+Aladdin,1992-11-11,Comedy,G,441969178.0,Ron Clements,Aladdin,Scott Weinger; Brad Kane
+Aladdin,1992-11-11,Comedy,G,441969178.0,Ron Clements,Genie,Robin Williams
+Aladdin,1992-11-11,Comedy,G,441969178.0,Ron Clements,Haroud Hazi Bin,James Avery
+Aladdin,1992-11-11,Comedy,G,441969178.0,Ron Clements,Iago,Gilbert Gottfried
+Aladdin,1992-11-11,Comedy,G,441969178.0,Ron Clements,Jafar,Jonathan Freeman
+Aladdin,1992-11-11,Comedy,G,441969178.0,Ron Clements,Magic Carpet,None
+Aladdin,1992-11-11,Comedy,G,441969178.0,Ron Clements,Mechanicles,Charlie Adler
+Aladdin,1992-11-11,Comedy,G,441969178.0,Ron Clements,Mozenrath,Jonathan Brandis
+Aladdin,1992-11-11,Comedy,G,441969178.0,Ron Clements,Princess Jasmine,Linda Larkin; Lea Salonga
+Aladdin,1992-11-11,Comedy,G,441969178.0,Ron Clements,Rajah,Frank Welker
+Aladdin,1992-11-11,Comedy,G,441969178.0,Ron Clements,Razoul,Jim Cummings
+Aladdin,1992-11-11,Comedy,G,441969178.0,Ron Clements,Sadira,Kellie Martin
+Aladdin,1992-11-11,Comedy,G,441969178.0,Ron Clements,The Sultan,Douglas Seale
+Casanova,2005-12-25,Drama,R,14574087.0,,,
+Thor: The Dark World,2013-11-08,Adventure,PG-13,213962184.0,,,
+Monkey Kingdom,2015-04-17,Documentary,G,16432322.0,,,
+Ernest Saves Christmas,1988-11-11,Comedy,PG,57845202.0,,,
+Hannah Montana/Miley Cyrus: Best of B…,2008-02-01,Concert/Performance,G,76646993.0,,,
+Saving Mr. Banks,2013-12-13,Drama,PG-13,86249969.0,,,
+The Aristocats,2070-04-24,Musical,G,255161499.0,Wolfgang Reitherman,Abigail Gabble,Monica Evans
+The Aristocats,2070-04-24,Musical,G,255161499.0,Wolfgang Reitherman,Amelia Gabble,Carole Shelley
+The Aristocats,2070-04-24,Musical,G,255161499.0,Wolfgang Reitherman,Berlioz,Dean Clark
+The Aristocats,2070-04-24,Musical,G,255161499.0,Wolfgang Reitherman,Billy Boss,Thurl Ravenscroft
+The Aristocats,2070-04-24,Musical,G,255161499.0,Wolfgang Reitherman,Duchess,Eva Gabor
+The Aristocats,2070-04-24,Musical,G,255161499.0,Wolfgang Reitherman,Edgar Balthazar the Butler,Roddy Maude-Roxby
+The Aristocats,2070-04-24,Musical,G,255161499.0,Wolfgang Reitherman,Frou-Frou,Nancy Kulp
+The Aristocats,2070-04-24,Musical,G,255161499.0,Wolfgang Reitherman,Georges Hautecourt,Charles Lane
+The Aristocats,2070-04-24,Musical,G,255161499.0,Wolfgang Reitherman,Hit Cat the English Cat,Lord Tim Hudson
+The Aristocats,2070-04-24,Musical,G,255161499.0,Wolfgang Reitherman,Lafayette the Basset Hound,George Lindsey
+The Aristocats,2070-04-24,Musical,G,255161499.0,Wolfgang Reitherman,Madame Adelaide Bonfamille,Hermione Baddeley
+The Aristocats,2070-04-24,Musical,G,255161499.0,Wolfgang Reitherman,Marie,Liz English
+The Aristocats,2070-04-24,Musical,G,255161499.0,Wolfgang Reitherman,Napoleon the Bloodhound,Pat Buttram
+The Aristocats,2070-04-24,Musical,G,255161499.0,Wolfgang Reitherman,Peppo the Italian Cat,Vito Scotti
+The Aristocats,2070-04-24,Musical,G,255161499.0,Wolfgang Reitherman,Roquefort the Mouse,Sterling Holloway
+The Aristocats,2070-04-24,Musical,G,255161499.0,Wolfgang Reitherman,Scat Cat,Scatman Crothers
+The Aristocats,2070-04-24,Musical,G,255161499.0,Wolfgang Reitherman,Shun Gon the Chinese Cat,Paul Winchell
+The Aristocats,2070-04-24,Musical,G,255161499.0,Wolfgang Reitherman,Thomas O'Malley,Phil Harris
+The Aristocats,2070-04-24,Musical,G,255161499.0,Wolfgang Reitherman,Toulouse,Gary Dubin
+The Aristocats,2070-04-24,Musical,G,255161499.0,Wolfgang Reitherman,Uncle Waldo,Bill Thompson
+Calendar Girls,2003-12-19,Comedy,PG-13,42379650.0,,,
+Unstrung Heroes,1995-09-15,Drama,PG,15365850.0,,,
+Three Fugitives,1989-01-27,Comedy,PG-13,85757817.0,,,
+Tomorrowland,2015-05-22,Adventure,PG,93436322.0,,,
+The Village,2004-07-30,Thriller/Suspense,PG-13,155021748.0,,,
+"Alexander and the Terrible, Horrible,…",2014-10-10,Comedy,PG,69055550.0,,,
+Arachnophobia,1990-07-18,Thriller/Suspense,PG-13,106290270.0,,,
+Lincoln,2012-11-09,Drama,PG-13,192122330.0,,,
+The Horse Whisperer,1998-05-15,Drama,PG-13,135497531.0,,,
+Muppets Most Wanted,2014-03-21,Comedy,PG,52807594.0,,,
+Fantasia 2000 (IMAX),2000-01-01,Musical,G,94852354.0,,,
+Spaced Invaders,1990-04-27,Comedy,PG,29964452.0,,,
+Just Visiting,2001-04-06,Comedy,PG-13,7114869.0,,,
+Holes,2003-04-18,Drama,PG,94203395.0,,,
+The Last Shot,2004-09-24,Comedy,R,629502.0,,,
+Meet the Robinsons,2007-03-30,Adventure,G,119860589.0,Stephen J. Anderson,Bowler Hat Guy,Stephen J. Anderson
+Meet the Robinsons,2007-03-30,Adventure,G,119860589.0,Stephen J. Anderson,Carl the Robot,Harland Williams
+Meet the Robinsons,2007-03-30,Adventure,G,119860589.0,Stephen J. Anderson,Cornelius Robinson,Tom Selleck
+Meet the Robinsons,2007-03-30,Adventure,G,119860589.0,Stephen J. Anderson,Doris,Ethan Sandler
+Meet the Robinsons,2007-03-30,Adventure,G,119860589.0,Stephen J. Anderson,Frankie the Frog,Aurian Redson
+Meet the Robinsons,2007-03-30,Adventure,G,119860589.0,Stephen J. Anderson,Franny Robinson,Nicole Sullivan
+Meet the Robinsons,2007-03-30,Adventure,G,119860589.0,Stephen J. Anderson,Goob,Matthew Josten
+Meet the Robinsons,2007-03-30,Adventure,G,119860589.0,Stephen J. Anderson,Lefty,Nathan Greno
+Meet the Robinsons,2007-03-30,Adventure,G,119860589.0,Stephen J. Anderson,Lewis,Jordan Fry
+Meet the Robinsons,2007-03-30,Adventure,G,119860589.0,Stephen J. Anderson,Lizzy,Tracey Miller-Zarneke
+Meet the Robinsons,2007-03-30,Adventure,G,119860589.0,Stephen J. Anderson,Lucille Krunklehorn,Laurie Metcalf
+Meet the Robinsons,2007-03-30,Adventure,G,119860589.0,Stephen J. Anderson,Mildred,Angela Bassett
+Meet the Robinsons,2007-03-30,Adventure,G,119860589.0,Stephen J. Anderson,Mr. Willerstein,Tom Kenny
+Meet the Robinsons,2007-03-30,Adventure,G,119860589.0,Stephen J. Anderson,Tiny,Joe Mateo
+Meet the Robinsons,2007-03-30,Adventure,G,119860589.0,Stephen J. Anderson,Uncle Art,Adam West
+Meet the Robinsons,2007-03-30,Adventure,G,119860589.0,Stephen J. Anderson,Wilbur Robinson,Wesley Singerman
+Dead Poets Society,1989-06-02,Drama,PG,202531517.0,,,
+Avengers: Age of Ultron,2015-05-01,Action,PG-13,459005868.0,,,
+Man of the House,1995-03-03,Comedy,PG,77573459.0,,,
+Bears,2014-04-18,Documentary,G,18346024.0,,,
+Passed Away,1992-04-24,Comedy,PG-13,8187848.0,,,
+ESPN's Ultimate X - The Movie,2002-05-10,Documentary,PG,6089874.0,,,
+Atlantis: The Lost Empire,2001-06-08,Adventure,PG,125188122.0,Gary Trousdale,Audrey Ramirez,Jacqueline Obradors
+Atlantis: The Lost Empire,2001-06-08,Adventure,PG,125188122.0,Gary Trousdale,Commander Lyle Rourke,James Garner
+Atlantis: The Lost Empire,2001-06-08,Adventure,PG,125188122.0,Gary Trousdale,Cookie,Jim Varney
+Atlantis: The Lost Empire,2001-06-08,Adventure,PG,125188122.0,Gary Trousdale,Dr. Joshua Sweet,Phil Morris
+Atlantis: The Lost Empire,2001-06-08,Adventure,PG,125188122.0,Gary Trousdale,Fenton Q. Harcourt,David Ogden Stiers
+Atlantis: The Lost Empire,2001-06-08,Adventure,PG,125188122.0,Gary Trousdale,"Gaetan ""Mole"" Moliére",Corey Burton
+Atlantis: The Lost Empire,2001-06-08,Adventure,PG,125188122.0,Gary Trousdale,Helga Sinclair,Claudia Christian
+Atlantis: The Lost Empire,2001-06-08,Adventure,PG,125188122.0,Gary Trousdale,King Kashekim Nedakh,Leonard Nimoy
+Atlantis: The Lost Empire,2001-06-08,Adventure,PG,125188122.0,Gary Trousdale,Milo Thatch,Michael J. Fox
+Atlantis: The Lost Empire,2001-06-08,Adventure,PG,125188122.0,Gary Trousdale,Preston B. Whitmore,John Mahoney
+Atlantis: The Lost Empire,2001-06-08,Adventure,PG,125188122.0,Gary Trousdale,Princess Kidagakash,Cree Summer
+Atlantis: The Lost Empire,2001-06-08,Adventure,PG,125188122.0,Gary Trousdale,"Vincenzo ""Vinny"" Santorini",Don Novello
+Atlantis: The Lost Empire,2001-06-08,Adventure,PG,125188122.0,Gary Trousdale,Wilhelmina Packard,Florence Stanley
+Teacher's Pet: The Movie,2004-01-16,Comedy,PG,8812764.0,,,
+Spy Hard,1996-05-24,Comedy,PG-13,51373912.0,,,
+Snow Dogs,2002-01-18,Comedy,PG,117745317.0,,,
+Frankenweenie,2012-10-05,Comedy,PG,37363513.0,,,
+Tuck Everlasting,2002-10-11,Drama,PG,27789959.0,,,
+Hauru no ugoku shiro,2005-06-10,Adventure,PG,6194870.0,,,
+Gedo Senki (Tales from Earthsea),2010-08-13,Adventure,PG-13,51988.0,,,
+Disney's A Christmas Carol,2009-11-06,Drama,PG,154927105.0,,,
+Prefontaine,1997-01-24,Drama,PG-13,1085093.0,,,
+Beaches,1988-12-21,Drama,PG-13,120381757.0,,,
+101 Dalmatians,1961-01-25,Comedy,G,1362870985.0,,,
+The Last Song,2010-03-31,Drama,PG,67258772.0,,,
+Father Hood,1993-08-27,Adventure,PG-13,6654819.0,,,
+Encino Man,1992-05-22,Comedy,PG,81369058.0,,,
+Sweet Home Alabama,2002-09-27,Comedy,PG-13,184521151.0,,,
+Play it to the Bone,1999-12-24,Comedy,R,13180524.0,,,
+The Odd Life of Timothy Green,2012-08-15,Drama,PG,54914942.0,,,
+Honey I Blew Up the Kid,1992-07-17,Comedy,PG,119162518.0,,,
+Hercules,1997-06-13,Adventure,G,182029412.0,Ron Clements,Alcmene,Barbara Barrie
+Hercules,1997-06-13,Adventure,G,182029412.0,Ron Clements,Amphitryon,Hal Holbrook
+Hercules,1997-06-13,Adventure,G,182029412.0,Ron Clements,Apollo,Keith David
+Hercules,1997-06-13,Adventure,G,182029412.0,Ron Clements,Atropos,Paddi Edwards
+Hercules,1997-06-13,Adventure,G,182029412.0,Ron Clements,Calliope,Lillias White
+Hercules,1997-06-13,Adventure,G,182029412.0,Ron Clements,Clio,Vanéese Y. Thomas
+Hercules,1997-06-13,Adventure,G,182029412.0,Ron Clements,Clotho,Amanda Plummer
+Hercules,1997-06-13,Adventure,G,182029412.0,Ron Clements,Demetrius,Wayne Knight
+Hercules,1997-06-13,Adventure,G,182029412.0,Ron Clements,Hades,James Woods
+Hercules,1997-06-13,Adventure,G,182029412.0,Ron Clements,Hera,Samantha Eggar
+Hercules,1997-06-13,Adventure,G,182029412.0,Ron Clements,Hercules,Tate Donovan; Joshua Keaton
+Hercules,1997-06-13,Adventure,G,182029412.0,Ron Clements,Hermes,Paul Shaffer
+Hercules,1997-06-13,Adventure,G,182029412.0,Ron Clements,Lachesis,Carole Shelley
+Hercules,1997-06-13,Adventure,G,182029412.0,Ron Clements,Megara,Susan Egan
+Hercules,1997-06-13,Adventure,G,182029412.0,Ron Clements,Melpomene,Cheryl Freeman
+Hercules,1997-06-13,Adventure,G,182029412.0,Ron Clements,Nessus,Jim Cummings
+Hercules,1997-06-13,Adventure,G,182029412.0,Ron Clements,Pain and Panic,Bobcat Goldthwait; Matt Frewer
+Hercules,1997-06-13,Adventure,G,182029412.0,Ron Clements,Pegasus,Frank Welker
+Hercules,1997-06-13,Adventure,G,182029412.0,Ron Clements,Philoctetes,Danny DeVito
+Hercules,1997-06-13,Adventure,G,182029412.0,Ron Clements,Terpsichore,LaChanze
+Hercules,1997-06-13,Adventure,G,182029412.0,Ron Clements,Thalia,Roz Ryan
+Hercules,1997-06-13,Adventure,G,182029412.0,Ron Clements,Zeus,Rip Torn

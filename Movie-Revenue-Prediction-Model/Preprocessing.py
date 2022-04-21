@@ -121,30 +121,30 @@ def fillMissingData(data):
 
     print("Filling Genres Has Finished")
     # Filling Movies' MPAA Ratings.
-    rating_nans = data[data['MPAA_rating'].isna()].movie_title
-    MPAA_ratings = ['G', 'PG', 'R', 'PG-13', 'Not Rated']
+    #rating_nans = data[data['MPAA_rating'].isna()].movie_title
+    #MPAA_ratings = ['G', 'PG', 'R', 'PG-13', 'Not Rated']
 
-    print("Filling MPAA Rating...")
-    i = 0
-    for name in rating_nans:
-        i += 1
-        print(i, "/", len(rating_nans))
-        search = ia.search_movie(name)
-        id = search[0].movieID
-        movie = ia.get_movie(id)
-        ratingsLen = len(movie.data['certificates'])
-        ratings = movie.data['certificates']
+    #print("Filling MPAA Rating...")
+    #i = 0
+    #for name in rating_nans:
+    #    i += 1
+    #    print(i, "/", len(rating_nans))
+    #    search = ia.search_movie(name)
+    #    id = search[0].movieID
+    #    movie = ia.get_movie(id)
+    #    ratingsLen = len(movie.data['certificates'])
+    #    ratings = movie.data['certificates']
 
-        for i in range(ratingsLen):
-            rating = ratings[i]
-            if 'United States' in rating:
-                rating = rating.split(":", 1)[1]
-                if rating in MPAA_ratings:
-                    data.loc[data['movie_title'] == name, 'MPAA_rating'] = rating
-                else:
-                    data.loc[data['movie_title'] == name, 'MPAA_rating'] = None
-    print("Filling MPAA Rating Has Finished")
+    #    for i in range(ratingsLen):
+    #        rating = ratings[i]
+    #        if 'United States' in rating:
+    #            rating = rating.split(":", 1)[1]
+    #            if rating in MPAA_ratings:
+    #                data.loc[data['movie_title'] == name, 'MPAA_rating'] = rating
+    #           else:
+    #                data.loc[data['movie_title'] == name, 'MPAA_rating'] = None
+    #print("Filling MPAA Rating Has Finished")+
     return data
 
 if __name__ == '__main__':
-    main("data_finalizing_test.csv")
+    main("Preproccessed_Dataset/preproccessed_data.csv")
