@@ -7,9 +7,10 @@ revenues = pd.read_csv('../Datasets/movies-revenue.csv')
 voice_actors = pd.read_csv('../Datasets/movie-voice-actors.csv')
 directors = pd.read_csv('../Datasets/movie-director.csv')
 
+features = ['release_date', 'genre', 'MPAA_rating', 'director', 'character', 'voice-actor']
+
 def main(filepath):
     print("------------------------Preprocessing------------------------")
-    #HandleMissingValues() #DONE
     ParseDate()           #DONE
     ParseRevenue()        #DONE
 
@@ -39,28 +40,6 @@ def JoinTables(revs, va, dir):
     data = data.dropna(axis=0, subset=['revenue'])
     print("Shape after Joining :", data.shape)
     return data
-
-def HandleMissingValues():
-    """Drop all rows with NaNs in the dataset."""
-    print("\nHandling Null Values: ")
-    print("-"*25)
-
-    # Checking for missing values.
-    print("Revenues #NaNs:\n", revenues.isna().sum())
-    print("-"*25)
-    print("Directors #NaNs:\n", directors.isna().sum())
-    print("-"*25)
-    print("Voice Actors #NaNs:\n", voice_actors.isna().sum())
-    print("-"*25)
-
-    # Dropping NaNs.
-    print("Revenues shape before dropping NaNs: ", revenues.shape)
-
-    revenues.dropna(inplace=True)
-
-    print("Revenues shape after dropping NaNs:  ", revenues.shape)
-    print("-"*50)
-
 
 def ParseDate():
     """Converts release-date data type to datetime instead of string."""
@@ -106,54 +85,11 @@ def ParseRevenue():
     print("-" * 50)
 
 
-def HandlingCategoricalData():
-    """Converts categorical data to numerical data to be able to apply regression."""
 
-    """Revenues."""
-    print("\nHandling Categorical Data: ")
-    print("-"*25)
-
-    dummies = pd.get_dummies(data=revenues, columns=['genre', 'MPAA_rating'])
-    dummiesDF = pd.DataFrame(dummies)
-
-    print("Revenues Shape Before One Hot Encoding:", revenues.shape)
-    del(revenues['genre'])
-    del(revenues['MPAA_rating'])
-
-    revenues_preprocessed = dummiesDF
-    print("Revenues Shape After One Hot Encoding:",revenues_preprocessed.shape)
-
-    """Voice Actors."""
-    print("-"*15)
-    #dummies = pd.get_dummies(data=voice_actors, columns=['voice-actor'])
-    #dummiesDF = pd.DataFrame(dummies)
-    #unique = voice_actors['voice-actor'].unique()
-
-    print("Voice Actors Shape Before One Hot Encoding:", voice_actors.shape)
-    #del(voice_actors['voice-actor'])
-
-    voice_actors_preprocessed = (voice_actors.pivot_table(index='movie', columns='voice-actor', aggfunc='size', fill_value=0).reset_index().rename_axis(columns=None))
-    #TODO: Aggregation
-    print("Voice Actors Shape After One Hot Encoding:", voice_actors_preprocessed.shape)
-
-    """Movie Directors."""
-    print("-" * 15)
-    #dummies = pd.get_dummies(data=directors, columns=['director'])
-    #dummiesDF = pd.DataFrame(dummies)
-
-    print("Directors Shape Before One Hot Encoding:", directors.shape)
-    #del (directors['director'])
-
-    directors_preprocessed = (directors.pivot_table(index='name',columns='director',aggfunc='size',fill_value=0).reset_index().rename_axis(columns=None))
-    #TODO: Aggregation
-    print("Directors Shape After One Hot Encoding:", directors_preprocessed.shape)
-
-    return revenues_preprocessed, voice_actors_preprocessed, directors_preprocessed
 
 def RemoveDuplicates():
     revenues.sort_values(by='release_date', ascending=False, inplace=True)
     revenues.drop_duplicates(subset=['movie_title'], inplace=True)
-
 
 
 def fillMissingData(data):
@@ -209,5 +145,6 @@ def fillMissingData(data):
                     data.loc[data['movie_title'] == name, 'MPAA_rating'] = None
     print("Filling MPAA Rating Has Finished")
     return data
+
 if __name__ == '__main__':
     main("data_finalizing_test.csv")
