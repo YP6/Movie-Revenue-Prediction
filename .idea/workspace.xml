@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="88f3f7cc-63bd-47b3-89f3-ba13c2b0fb4d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Movie-Revenue-Prediction-Model/JamesStein Encoder MODEL.py" beforeDir="false" afterPath="$PROJECT_DIR$/Movie-Revenue-Prediction-Model/JamesStein Encoder MODEL.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Movie-Revenue-Prediction-Model/MEstimate Encoder MODEL.py" beforeDir="false" afterPath="$PROJECT_DIR$/Movie-Revenue-Prediction-Model/MEstimate Encoder MODEL.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Movie-Revenue-Prediction-Model/TargetEncoder MODEL.py" beforeDir="false" afterPath="$PROJECT_DIR$/Movie-Revenue-Prediction-Model/TargetEncoder MODEL.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Movie-Revenue-Prediction-Model/Feature Engineering.ipynb" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
