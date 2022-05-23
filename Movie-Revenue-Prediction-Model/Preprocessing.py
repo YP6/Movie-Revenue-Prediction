@@ -3,9 +3,9 @@ import numpy as np
 import imdb
 
 
-revenues = pd.read_csv('../Datasets/movies-revenue.csv')
-voice_actors = pd.read_csv('../Datasets/movie-voice-actors.csv')
-directors = pd.read_csv('../Datasets/movie-director.csv')
+revenues = pd.read_csv('../Datasets/Regression Datasets/movies-revenue.csv')
+voice_actors = pd.read_csv('../Datasets/Regression Datasets/movie-voice-actors.csv')
+directors = pd.read_csv('../Datasets/Regression Datasets/movie-director.csv')
 
 features = ['release_date', 'genre', 'MPAA_rating', 'director', 'character', 'voice-actor']
 

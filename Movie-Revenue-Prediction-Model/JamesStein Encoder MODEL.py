@@ -7,8 +7,7 @@ from sklearn import metrics
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import r2_score
 import timeit
-
-
+import pickle
 
 
 data = pd.read_csv('data_finalizing_test.csv')
@@ -43,6 +42,9 @@ print('Training Time :', "{:.2f}".format((stop-start)*1000), "ms")
 
 Train_predictions = model.predict(X_Train)
 Test_predictions = model.predict(X_Test)
+
+with open('JamesStein Encoding Model', 'wb') as file:
+    pickle.dump(model, file)
 
 print('_'*25)
 print('Multi Linear Regression With James Stein Encoder')
