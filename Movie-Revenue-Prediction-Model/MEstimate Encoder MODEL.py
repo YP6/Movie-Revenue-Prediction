@@ -8,6 +8,7 @@ from sklearn import metrics
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import r2_score
 import timeit
+import pickle
 
 data = pd.read_csv('data_finalizing_test.csv')
 
@@ -47,6 +48,9 @@ poly_Train_predections = poly_model.predict(X_Train_poly)
 
 X_Test_poly = poly_features.fit_transform(X_Test)
 poly_Test_predictions = poly_model.predict(X_Test_poly)
+
+with open('MEstimate Encoding Model', 'wb') as file:
+    pickle.dump(poly_model, file)
 
 print('_'*25)
 print('Polynomial Regression With MEstimate Encoder')
