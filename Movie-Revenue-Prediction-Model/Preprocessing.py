@@ -3,9 +3,9 @@ import numpy as np
 import imdb
 
 
-revenues = pd.read_csv('../Datasets/Regression Datasets/movies-revenue.csv')
-voice_actors = pd.read_csv('../Datasets/Regression Datasets/movie-voice-actors.csv')
-directors = pd.read_csv('../Datasets/Regression Datasets/movie-director.csv')
+revenues = pd.read_csv('../Datasets/Classification Datasets/movies-revenue-classification.csv')
+voice_actors = pd.read_csv('../Datasets/Classification Datasets/movie-voice-actors.csv')
+directors = pd.read_csv('../Datasets/Classification Datasets/movie-director.csv')
 
 features = ['release_date', 'genre', 'MPAA_rating', 'director', 'character', 'voice-actor']
 
@@ -120,30 +120,52 @@ def fillMissingData(data):
         data.loc[data['movie_title'] == name, 'genre'] = genre
 
     print("Filling Genres Has Finished")
-    # Filling Movies' MPAA Ratings.
-    #rating_nans = data[data['MPAA_rating'].isna()].movie_title
-    #MPAA_ratings = ['G', 'PG', 'R', 'PG-13', 'Not Rated']
+    #Filling Movies' MPAA Ratings.
+    rating_nans = data[data['MPAA_rating'].isna()].movie_title
+    MPAA_ratings = ['G', 'PG', 'R', 'PG-13', 'Not Rated']
 
-    #print("Filling MPAA Rating...")
-    #i = 0
-    #for name in rating_nans:
-    #    i += 1
-    #    print(i, "/", len(rating_nans))
-    #    search = ia.search_movie(name)
-    #    id = search[0].movieID
-    #    movie = ia.get_movie(id)
-    #    ratingsLen = len(movie.data['certificates'])
-    #    ratings = movie.data['certificates']
+    print("Filling MPAA Rating...")
+    i = 0
+    for name in rating_nans:
+        i += 1
+        print(i, "/", len(rating_nans))
+        search = ia.search_movie(name)
+        id = search[0].movieID
+        movie = ia.get_movie(id)
+        ratingsLen = len(movie.data['certificates'])
+        ratings = movie.data['certificates']
 
-    #    for i in range(ratingsLen):
-    #        rating = ratings[i]
-    #        if 'United States' in rating:
-    #            rating = rating.split(":", 1)[1]
-    #            if rating in MPAA_ratings:
-    #                data.loc[data['movie_title'] == name, 'MPAA_rating'] = rating
-    #           else:
-    #                data.loc[data['movie_title'] == name, 'MPAA_rating'] = None
-    #print("Filling MPAA Rating Has Finished")+
+        for i in range(ratingsLen):
+            rating = ratings[i]
+            if 'United States' in rating:
+                rating = rating.split(":", 1)[1]
+                if rating in MPAA_ratings:
+                    data.loc[data['movie_title'] == name, 'MPAA_rating'] = rating
+                else:
+                    data.loc[data['movie_title'] == name, 'MPAA_rating'] = None
+    print("Filling MPAA Rating Has Finished")
+
+    #Nulls in Director
+    directorNulls=data[data['director'].isnull()].index.tolist() #high
+    print("director Nulls",directorNulls)
+    for i in range(len(directorNulls)):
+            name = data['movie_title'][directorNulls[i]]
+            search = ia.search_movie(name)
+            if len(search) == 0:
+                continue
+            id = search[0].movieID
+            # getting information
+            movie = ia.get_movie(id)
+            if 'directors' in movie:
+                name = movie.data['directors'][0]
+                #adding name to CSV
+                print (name)
+                print(directorNulls[i])
+                if(name):
+                    data['director'][directorNulls[i]]=name
+                else:
+                 # print(data['director'].mode())
+                 data['director'][directorNulls[i]]=data['director'].mode()
     return data
 
 if __name__ == '__main__':
