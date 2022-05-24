@@ -2,9 +2,9 @@ import pandas as pd
 import numpy as np
 import imdb
 
-successLevel = pd.read_csv('../Datasets/Classification Datasets/movies-revenue-classification.csv')
-voice_actors = pd.read_csv('../Datasets/Classification Datasets/movie-voice-actors.csv')
-directors = pd.read_csv('../Datasets/Classification Datasets/movie-director.csv')
+successLevel = pd.read_csv('movies-revenue-test-samples.csv')
+voice_actors = pd.read_csv('movie-voice-actors-test-samples.csv')
+directors = pd.read_csv('movie-director-test-samples.csv')
 
 features = ['release_date', 'genre', 'MPAA_rating', 'director', 'character', 'voice-actor']
 
@@ -21,7 +21,7 @@ def main(filepath):
     print("-" * 25)
     dateset_after_joining = JoinTables(successLevel, directors, voice_actors)
 
-    data_after_filing = fillMissingData(dateset_after_joining)
+    data_after_filing = dateset_after_joining
 
 
     print("Saving...")
@@ -128,5 +128,5 @@ def fillMissingData(data):
 
 
 if __name__ == '__main__':
-    main("Preprocessed-Dataset/preprocessed_data.csv")
+    main("test_preprocessed_data.csv")
 

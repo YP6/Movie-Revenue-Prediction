@@ -1,6 +1,6 @@
 import numpy as np
 import pandas as pd
-
+import pickle
 from numpy import asarray
 from sklearn.model_selection import train_test_split
 from sklearn import svm
@@ -66,6 +66,9 @@ X_train, X_test, y_train, y_test = train_test_split(x, y, train_size=0.8, shuffl
 #------------------------------------------------------------------------------------------
 #Model Phase
 svm_kernel_ovo = OneVsOneClassifier(SVC(kernel='linear', C=1)).fit(X_train, y_train)
+
+with open("1vs1 Classifier", "wb") as file:
+    pickle.dump(svm_kernel_ovo, file)
 
 accuracy1 = svm_kernel_ovo.score(X_train, y_train)
 accuracy = svm_kernel_ovo.score(X_test, y_test)
