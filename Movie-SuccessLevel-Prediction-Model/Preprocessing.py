@@ -13,22 +13,23 @@ def main(filepath):
     print("------------------------Preprocessing------------------------")
     ParseDate()
 
-    data_after_filing = fillMissingData(successLevel)
-
     directors.rename(columns={'name': 'movie_title'}, inplace=True)
     voice_actors.rename(columns={'movie': 'movie_title'}, inplace=True)
 
     # Join Tables
     print("\n\nJoining Tables")
     print("-" * 25)
-    dateset_after_joining = JoinTables(data_after_filing, directors, voice_actors)
+    dateset_after_joining = JoinTables(successLevel, directors, voice_actors)
+
+    data_after_filing = fillMissingData(dateset_after_joining)
+
 
     print("Saving...")
-    dateset_after_joining.to_csv(filepath, index=False)
+    data_after_filing.to_csv(filepath, index=False)
     print("Finished Preprocessing")
     print("-" * 50)
     print("Data Sample")
-    print(dateset_after_joining.head())
+    print(data_after_filing.head())
 
 
 def JoinTables(successLevels, va, dir):
@@ -102,6 +103,27 @@ def fillMissingData(data):
         data.loc[data['movie_title'] == name, 'genre'] = genre
 
     print("Filling Genres Has Finished")
+
+    #Nulls in Director
+    directorNulls=data[data['director'].isnull()].index.tolist() #high
+    print("director Nulls",directorNulls)
+    for i in range(len(directorNulls)):
+            name = data['movie_title'][directorNulls[i]]
+            search = ia.search_movie(name)
+            if len(search) == 0:
+                continue
+            id = search[0].movieID
+            # getting information
+            movie = ia.get_movie(id)
+            if 'directors' in movie:
+                name = movie.data['directors'][0]
+                #adding name to CSV
+                print (name)
+                print(directorNulls[i])
+                if(name):
+                    data['director'][directorNulls[i]]=name
+                else:
+                    data['director'][directorNulls[i]]=data['director'].mode()
     return data
 
 

@@ -3,9 +3,13 @@ import numpy as np
 import imdb
 
 
-revenues = pd.read_csv('../Datasets/Classification Datasets/movies-revenue-classification.csv')
-voice_actors = pd.read_csv('../Datasets/Classification Datasets/movie-voice-actors.csv')
-directors = pd.read_csv('../Datasets/Classification Datasets/movie-director.csv')
+# revenues = pd.read_csv('../Datasets/Classification Datasets/movies-revenue-classification.csv')
+# voice_actors = pd.read_csv('../Datasets/Classification Datasets/movie-voice-actors.csv')
+# directors = pd.read_csv('../Datasets/Classification Datasets/movie-director.csv')
+
+revenues = pd.read_csv('Test/movies-test-samples.csv')
+voice_actors = pd.read_csv('Test/movie-voice-actors.csv')
+directors = pd.read_csv('Test/movie-director.csv')
 
 features = ['release_date', 'genre', 'MPAA_rating', 'director', 'character', 'voice-actor']
 
@@ -14,8 +18,8 @@ def main(filepath):
     ParseDate()           #DONE
     ParseRevenue()        #DONE
 
-    data_after_filing = fillMissingData(revenues)
-    data_after_filing.dropna(inplace=True)
+    data_after_filing = revenues # fillMissingData(revenues)
+    #data_after_filing.dropna(inplace=True)
 
     directors.rename(columns={'name': 'movie_title'}, inplace=True)
     voice_actors.rename(columns={'movie': 'movie_title'}, inplace=True)
@@ -169,4 +173,4 @@ def fillMissingData(data):
     return data
 
 if __name__ == '__main__':
-    main("Preproccessed_Dataset/preproccessed_data.csv")
+    main("Preproccessed_Dataset/preproccessed_data_test.csv")

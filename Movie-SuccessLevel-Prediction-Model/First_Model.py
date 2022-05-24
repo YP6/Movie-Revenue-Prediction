@@ -18,10 +18,10 @@ from category_encoders.james_stein import JamesSteinEncoder
 from category_encoders.one_hot import OneHotEncoder
 from sklearn.svm import LinearSVC
 from sklearn.svm import SVC
-from sklearn.multiclass import OneVsRestClassifier,OneVsOneClassifier
+from sklearn.multiclass import OneVsRestClassifier, OneVsOneClassifier
 
 
-data = pd.read_csv('SVM_final.csv')
+data = pd.read_csv('preprocessed_data.csv')
 
 
 encodedLabel = []

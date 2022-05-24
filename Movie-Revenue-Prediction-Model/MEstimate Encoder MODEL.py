@@ -25,7 +25,6 @@ top_feature = corr.index[abs(corr['revenue']) > 0.45]
 Features = top_feature.to_list()
 Features.remove('revenue')
 X = data[Features]
-
 print("", '-'*50)
 print(' Features :', Features)
 print("", '-'*50)

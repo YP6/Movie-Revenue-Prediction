@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="88f3f7cc-63bd-47b3-89f3-ba13c2b0fb4d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Movie-Revenue-Prediction-Model/Feature Engineering.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Movie-Revenue-Prediction-Model/MEstimate Encoder MODEL.py" beforeDir="false" afterPath="$PROJECT_DIR$/Movie-Revenue-Prediction-Model/MEstimate Encoder MODEL.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Movie-Revenue-Prediction-Model/MEstimate Encoding Model" beforeDir="false" afterPath="$PROJECT_DIR$/Movie-Revenue-Prediction-Model/MEstimate Encoding Model" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Movie-Revenue-Prediction-Model/Preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Movie-Revenue-Prediction-Model/Preprocessing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Movie-SuccessLevel-Prediction-Model/First_Model.py" beforeDir="false" afterPath="$PROJECT_DIR$/Movie-SuccessLevel-Prediction-Model/First_Model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Movie-SuccessLevel-Prediction-Model/Preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Movie-SuccessLevel-Prediction-Model/Preprocessing.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,8 +40,8 @@
       <recent name="D:\Machine Learning\Movie-Revenue-Prediction\Movie-Revenue-Prediction-Model\MODELS" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.TargetEncoder MODEL (1)">
-    <configuration name="JamesStein Encoder MODEL (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Test_Script">
+    <configuration name="First_Model" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Movie-Revenue-Prediction" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -45,11 +49,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Movie-Revenue-Prediction-Model" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Movie-SuccessLevel-Prediction-Model" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Movie-Revenue-Prediction-Model/JamesStein Encoder MODEL.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Movie-SuccessLevel-Prediction-Model/First_Model.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -58,7 +62,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="MEstimate Encoder MODEL (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="MEstimate Encoder MODEL" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Movie-Revenue-Prediction" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -71,6 +75,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Movie-Revenue-Prediction-Model/MEstimate Encoder MODEL.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Preprocessing (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Movie-Revenue-Prediction" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Movie-SuccessLevel-Prediction-Model" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Movie-SuccessLevel-Prediction-Model/Preprocessing.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -100,27 +125,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="TargetEncoder MODEL (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Movie-Revenue-Prediction" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Movie-Revenue-Prediction-Model" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Movie-Revenue-Prediction-Model/TargetEncoder MODEL.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="TargetEncoder MODEL" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Movie-Revenue-Prediction" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -142,7 +146,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="TargetEncoder MODEL" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_Script" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Movie-Revenue-Prediction" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -154,7 +158,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\Machine Learning\Movie-Revenue-Prediction\Movie-Revenue-Prediction-Model\TargetEncoder MODEL.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Movie-Revenue-Prediction-Model/Test_Script.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -165,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.TargetEncoder MODEL (1)" />
-        <item itemvalue="Python.JamesStein Encoder MODEL (1)" />
-        <item itemvalue="Python.MEstimate Encoder MODEL (1)" />
+        <item itemvalue="Python.Test_Script" />
+        <item itemvalue="Python.MEstimate Encoder MODEL" />
         <item itemvalue="Python.Preprocessing" />
-        <item itemvalue="Python.TargetEncoder MODEL (1)" />
+        <item itemvalue="Python.First_Model" />
+        <item itemvalue="Python.Preprocessing (1)" />
       </list>
     </recent_temporary>
   </component>
